@@ -1,0 +1,742 @@
+{
+	"footer": {
+		"showlink": "https://www.starz.com/series/power/",
+		"social": [{
+	        "name": "facebook",
+	        "image": "images/footer/logo_facebook.png",
+	        "link": "https://www.facebook.com/Power.Starz"
+	    }, {
+	        "name": "twitter",
+	        "image": "images/footer/logo_twitter.png",
+	        "link": "https://www.twitter.com/power_starz"
+	    }, {
+	        "name": "instagram",
+	        "image": "images/footer/logo_instagram.png",
+	        "link": "https://www.instagram/power_starz"
+	    }],
+	    "copyright": "STARZ and related channels and service marks are the property of Starz Entertainment, LLC. Power © 2016 Starz Entertainment, LLC. All Rights Reserved."
+	},
+   "introvideo": {
+        "include": true,
+		  "cookie": "presskittester",
+        "src": {
+            "path": "https://securedownload.starz.com/csid/org8041_15_a_ges1_herotrailer60_540_1458780731.mp4",
+            "type": "video/mp4"
+        }
+   },
+   "sections": [
+		{
+			"name": "Intro",
+			"class": "intro",
+			"link": "",
+			"maincontent": "IntroVideo",
+			"sidemenu": false,
+			"video": "trailer",
+			"hidemenu": true,
+			"loop": false,
+			"background": "images/backgrounds/trailer.jpg",
+			"onComplete": 1,
+			"content": {
+				"sources":[{
+					"path": "https://securedownload.starz.com/csid/org8041_15_a_ges1_herotrailer60_540_1458780731.mp4",
+	            "type": "video/mp4"
+				}]
+			}
+		},
+		{
+			"name": "Synopsis",
+			"class": "synopsis",
+			"link": "synopsis",
+			"menu": true,
+			"maincontent": "Synopsis",
+			"sidemenu": true,
+			"video": "synopsis",
+			"hidemenu": false,
+			"loop": true,
+			"background": "images/backgrounds/key.jpg",
+			"content": {
+				"tagline": "images/intro/tagline.png",
+				"synopsis": [
+					"Season 3 finds James St. Patrick as the owner of new nightclubs, out of the drug game, and in a rekindled relationship with his first love, Angela—the Assistant US Attorney sworn to bring him to justice. But just as they begin to believe James&#8217; past criminal persona of &#8216;Ghost&#8217; may finally be behind them, both are forced to face the consequences of running from a life from which no one gets away clean."
+				]
+			}
+		},
+		{
+        "name": "Story",
+        "class": "story",
+		  "link": "story",
+        "menu": true,
+		  "maincontent": "Story",
+		  "sidemenu": false,
+		  "video": "story",
+		  "hidemenu": false,
+		  "loop": true,
+		  "background": "images/backgrounds/generic.jpg",
+		  "content": [
+			   {
+            	"image": "images/story/01_copy.jpg"
+  				},{
+            	"image": "images/story/02_copy.jpg"
+  				},{
+            	"image": "images/story/03_copy.jpg"
+  				},{
+            	"image": "images/story/04_copy.jpg"
+  				},{
+            	"image": "images/story/05_copy.jpg"
+  				},{
+            	"image": "images/story/06_copy.jpg"
+  				},{
+            	"image": "images/story/07_copy.jpg"
+  				},{
+            	"image": "images/story/08_copy.jpg"
+  				},{
+            	"image": "images/story/09_copy.jpg"
+  				},{
+            	"image": "images/story/10.jpg"
+  				},{
+            	"image": "images/story/11.jpg"
+  				},{
+            	"image": "images/story/12_copy.jpg"
+  				},{
+            	"image": "images/story/13_copy.jpg"
+  				},{
+            	"image": "images/story/14_copy.jpg"
+  				},{
+            	"image": "images/story/15.jpg"
+  				},{
+            	"image": "images/story/16.jpg"
+  				},{
+            	"image": "images/story/17.jpg"
+  				},{
+            	"image": "images/story/18.jpg"
+  				},{
+            	"image": "images/story/19.jpg"
+  				}
+	  		]
+    	},
+		{
+        "name": "Characters",
+		  "class": "characters",
+		  "link": "characters",
+        "menu": true,
+		  "maincontent": "CharacterBio",
+		  "sidemenu": true,
+		  "video": false,
+		  "hidemenu": false,
+		  "background": "images/backgrounds/ghost_fire.jpg",
+		  "loop": true,
+		  "content": [
+			  {
+					 "name": "JAMES &#8216;Ghost&#8217; ST. PATRICK",
+					 "actor": "Omari Hardwick",
+					 "desc": "Brilliant and debonair, James St. Patrick is ready to leave his criminal persona of &#8216;Ghost&#8217; behind, and begin his new life as the legitimate owner of New York City&#8217;s hottest nightclubs. This fresh start includes his rekindled relationship with his first love, Assistant United States Attorney Angela Valdes. He dismantled his drug empire, and with it, his friendship with his former best friend, Tommy. James is about to have the clean life he&#8217;s always wanted &#8212; if he can keep the specter of &#8216;Ghost&#8217; from coming back to haunt him.",
+					 "background": "images/backgrounds/ghost_fire.jpg",
+					 "video": false
+			   }, {
+ 					 "name": "ANGELA VALDES",
+ 					 "actor": "Lela Loren",
+ 					 "desc": "Focused and intelligent, Angela must toe the line between love and honor as she navigates her relationship with James St. Patrick, the former drug distributor &#8216;Ghost,&#8217; who she is sworn to bring to justice as a federal prosecutor. Her ambition got her out of Queens, but will her love for James now ruin everything she&#8217;s worked for? Angela now must find a way to keep her integrity as a prosecutor, and the old sins of Ghost from turning her dream life with James into a nightmare.",
+ 					 "background": "images/backgrounds/angela_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "TASHA ST. PATRICK",
+ 					 "actor": "Naturi Naughton",
+ 					 "desc": "Cunning, fierce, and drop-dead gorgeous, Tasha was Ghost&#8217;s loving wife at his side for years throughout his rise in the drug game, but now finds herself alone after his decision to start a new life with Angela as the legitimate club owner James St. Patrick. With her family unit shattered and less money coming in, Tasha has to decide how to support herself and her children - at any cost.",
+ 					 "background": "images/backgrounds/tasha_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "TOMMY EGAN",
+ 					 "actor": "Joseph Sikora",
+ 					 "desc": "Wild, wounded, and loyal to a fault, Tommy and Ghost began the drug business together, and for him, it&#8217;s not a means to an end &#8211; it is the end itself. The bond he had with the St. Patricks meant more than anything to him, making it all the more painful when Ghost dismantled their drug empire from under him. Now working for Lobos on his own, Tommy must adapt to life in the underworld without Ghost as he faces the most difficult task of his life.",
+ 					 "background": "images/backgrounds/tommy_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "KANAN",
+ 					 "actor": "Curtis &#8216;50 Cent&#8217; Jackson",
+ 					 "desc": "Ghost&#8217;s former boss and mentor, Kanan was released from prison and wreaked havoc on Ghost and Tommy&#8217;s drug business after learning Ghost masterminded the setup that put him behind bars. With their final confrontation culminating in a bloody, fiery showdown, Ghost thinks Kanan is dead and gone forever. But someone broke out of that burning warehouse&#8230; Will Kanan rise from the ashes &#8211; and how will he take his revenge?",
+ 					 "background": "images/backgrounds/kanan_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "HOLLY",
+ 					 "actor": "Lucy Walters",
+ 					 "desc": "Seductive, conniving, and passionate, ultimate survivor Holly is back, having returned to Tommy&#8217;s loving arms from her banishment by Ghost. Holly is proud of Tommy&#8217;s takeover of the drug organization and encourages him to enjoy the number one spot. Holly is unaware that Lobos has ordered Tommy to kill Ghost &#8212; and when she learns that a failure to execute will result in Tommy&#8217;s death and her own, her survival skills kick in. She will make sure Tommy kills Ghost no matter what steps she has to take &#8212; and no matter the cost.",
+ 					 "background": "images/backgrounds/holly_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "DRE",
+ 					 "actor": "Rotimi Akinosho",
+ 					 "desc": "Dre is a savvy, ambitious criminal who is quickly following in Ghost&#8217;s footsteps &#8212; including a mentorship from Kanan. He is indebted to Kanan for keeping him alive in jail, and giving him an opportunity in the streets. But now that Dre has sided with James to work in the clubs, will he be able to ignore the call of the streets and avoid paying for his past?",
+ 					 "background": "images/backgrounds/dre_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "JULIO",
+ 					 "actor": "J.R. Ramirez",
+ 					 "desc": "Julio is now Tommy's right hand man &#8212; whether he likes it or not. He&#8217;s a street-smart Cuban-American whose pragmatic approach keeps their drug business on track. Julio&#8217;s original tie to the organization is his relationship with Ghost. &#8211; once Ghost is out of the game, Julio must decide where his loyalties lie &#8211; and how far he&#8217;s willing to go.",
+ 					 "background": "images/backgrounds/julio_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "GREG KNOX",
+ 					 "actor": "Andy Bean",
+ 					 "desc": "Greg is a brilliant FBI agent who is hell-bent on collaring James St. Patrick as Lobos&#8217;s New York drug distributor, and making Angela &#8212; his one time girlfriend &#8212; pay for sabotaging his career.",
+ 					 "background": "images/backgrounds/greg_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "MIKE SANDOVAL",
+ 					 "actor": "David Fumero",
+ 					 "desc": "A cunning and seemingly banal Lobos cartel expert transferred from Southern California, he leads the Southern District of New York&#8217;s Lobos task force, and proves to be Angela&#8217;s foil &#8212; not impressed with her cutting corners, or her charms. But secretly working as a mole for Lobos, will he be able to save his vengeful boss from prosecution, and the lives of his family and himself in the process?",
+ 					 "background": "images/backgrounds/mike_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "CARLOS &#8216;VIBORA&#8217; RUIZ",
+ 					 "actor": "Luis Antonio Ramos",
+ 					 "desc": "Ruiz is leader of the Soldado Nation, a Puerto Rican gang within Ghost's former distribution network. Having fled New York City off a bogus tip from Ghost that Lobos was eliminating all primeras, his return may prove troublesome for everyone&#8230;",
+ 					 "background": "images/backgrounds/carlos_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "DEAN",
+ 					 "actor": "Callan Mulvey",
+ 					 "desc": "As the head of one of the most elite security firms in New York City, Dean is hired by James St. Patrick to run security over his growing club empire. But as James stretches himself between the clubs, family, Angela, and the streets, Dean's watchful and ever present eyes may penetrate past the &#8220;JSP&#8221; persona and right into Ghost himself.",
+ 					 "background": "images/backgrounds/dean_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "COOPER SAXE",
+ 					 "actor": "Shane Johnson",
+ 					 "desc": "Cooper Saxe is an Assistant United States Attorney in Angela's office. Arrogant and cocksure, he never lets anything stand in the way of his ambitions.",
+ 					 "background": "images/backgrounds/cooper_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "FELIPE LOBOS",
+ 					 "actor": "Enrique Murciano",
+ 					 "desc": "Lobos is leader of a Mexican drug cartel with an expansive supply chain importing high quality wholesale drugs into the United States. He is an intelligent, sophisticated, psychopath, who has survived Ghost&#8217;s attempt on his life, and now seeks bloody revenge with Tommy as his No.1 distributor.",
+ 					 "background": "images/backgrounds/felipe_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "JOE PROCTOR",
+ 					 "actor": "Jerry Ferrara",
+ 					 "desc": "Joe Proctor is a successful attorney with a dark secret, not easily intimidated by anyone. While he represented Tommy in court, Ghost pays his bills. His relationship with Ghost becomes closer as he helps the former drug dealer avoid the pitfalls of his past &#8211; and his own prosecution.",
+ 					 "background": "images/backgrounds/joe_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "LAKEISHA GRAHAM",
+ 					 "actor": "La La Anthony",
+ 					 "desc": "LaKeisha is Tasha St. Patrick's best friend who lives for Tasha's castaway merchandise. She is an opinionated chatterbox who doesn't see the dark side of Tasha's life&#8230; yet.",
+ 					 "background": "images/backgrounds/lakeisha_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "TARIQ ST. PATRICK",
+ 					 "actor": "Michael Rainey, Jr.",
+ 					 "desc": "Tariq, the only son of Ghost and Tasha, has all the benefits of being a rich New York City kid: he has his own room in his parents' huge apartment, attends a private school on the Upper East Side alongside his twin sister Raina and is always sporting the latest pair of Jordans. But with his parents' marriage breaking up and no explanation offered for Shawn's death, Tariq's behavior begins a downward spiral. Where he should look to Dre for understanding, instead Tariq forms an unlikely friendship with a figure from his father's past &#8212; with disastrous consequences.",
+ 					 "background": "images/backgrounds/tariq_fire.jpg",
+ 					 "video": false
+ 			   },{
+ 					 "name": "LAVERNE GANNER",
+ 					 "actor": "Anika Noni Rose",
+ 					 "desc": "A streetwise cop from the neighborhood where Ghost and Tommy grew up.",
+ 					 "background": "images/backgrounds/laverne_fire.jpg",
+ 					 "video": false
+ 			   }
+	  		]
+    	}, {
+        "name": "Production",
+		  "class": "production",
+		  "link": "production",
+        "menu": true,
+		  "maincontent": "ProductionBio",
+		  "sidemenu": true,
+		  "video": false,
+		  "hidemenu": false,
+		  "loop": true,
+		  "background": "images/backgrounds/hollytommy.jpg",
+		  "content": [
+			  {
+					"name": "COURTNEY A. KEMP",
+					"role": "CREATOR, SHOWRUNNER, EXECUTIVE PRODUCER",
+					"desc": [
+						 "Courtney A. Kemp is a highly regarded creator, showrunner and producer in the television industry. Kemp is the mind behind Starz&#8217; critically-acclaimed gritty New York drama, &#8220;Power.&#8221; The hit series marks her debut as a Creator and Showrunner and follows the complex character James &#8216;Ghost&#8217; St. Patrick and his empire. Under Kemp&#8217;s leadership, the series doubled viewership from its premiere episode to its finale in the first season and generated the largest concentration of African-American viewership of any scripted premium series in almost a decade. As the second season wrapped, &#8220;Power&#8221; drew a record 6.3 million viewers each week, making it the network&#8217;s most highly watched original series on record. For her work on the show, Marie Claire Magazine named Kemp one of &#8220;The 50 Most Influential Women in America,&#8221; she was included as one of the female powerhouses on Elle Magazine&#8217;s &#8220;The Agenda&#8221; and named one of Ebony Magazine&#8217;s &#8220;Power 100&#8221; honorees.",
+						 "Previously, Kemp was a Writer and Supervising Producer on the celebrated television show &#8220;The Good Wife,&#8221; which went on to garner nominations for a Primetime Emmy Award for Outstanding Drama Series and a Writers Guild Award for Dramatic Series. She also worked on ABC&#8217;s &#8220;Eli Stone&#8221; and Fox&#8217;s &#8220;Justice&#8221; and &#8220;The Bernie Mac Show,&#8221; among others. Prior to her work in television, Kemp wrote for many prestigious magazines, including GQ, Vibe and Marie Claire.",
+						 "Kemp holds a B.A. from Brown University in English Literature and received her M.A. in English Literature from Columbia University."
+					],
+					"image": "images/production/kemp.jpg"
+			  }, {
+					"name": "CURTIS &#8216;50 CENT&#8217; JACKSON",
+					"role": "KANAN, EXECUTIVE PRODUCER",
+					"desc": [
+						 "50 Cent, born Curtis James Jackson III, is an American rapper, entrepreneur, investor and actor from Queens, New York. He rose to fame with the release of his 2003 album &#8220;Get Rich or Die Tryin&#8217;,&#8221; which has sold more than eight million copies. The Grammy Award winner has sold more than 30 million albums worldwide and has been awarded numerous accolades including: 13 Billboard Music Awards, six World Music Awards, three American Music Awards and four BET Awards. He was ranked as the number one rap artist and most successful &#8220;Hot 100 Artist of the 2000s&#8221; by Billboard Magazine, as well as that decade&#8217;s sixth-best artist and fourth top male artist. 50 Cent surprised fans in 2014 reuniting G-Unit and releasing new music. In June 2014, 50 Cent debuted his fifth studio album, &#8220;Animal Ambition&#8221; and currently is gearing up for his next studio album, &#8220;Street King Immortal,&#8221; which includes several featured guests such as: Eminem and Chris Brown. In December 2015, he released &#8220;The Kanan Tape&#8221; mixtape, named after his character on &#8220;Power.&#8221;",
+						 "What began as music chart dominance for the rap music phenomenon quickly transformed to success in corporate America as a multi-tiered business mogul to be reckoned with. 50 Cent has also carved out a successful and acclaimed career as an actor and producer. He filmed Spy with Melissa McCarthy and Jude Law and also co-starred in the Antoine Fuqua directed boxing drama, Southpaw, along with Jake Gyllenhaal, Forest Whitaker and Rachel McAdams. Both films were released in summer 2015. In 2005, 50 Cent founded the production company, G-Unit Film & Television Inc., producing a wide variety of content across various platforms. In September 2015 it was announced that Starz signed 50 Cent and G-Unit Film & Television, Inc. to an exclusive two-year overall premium television deal, where he will develop new projects for the network and continue as Executive Producer on &#8220;Power.&#8221; He was also featured on Billboard Magazine&#8217;s First Annual &#8220;TV&#8217;s Top Music Power Players List&#8221; for his work on &#8220;Power.&#8221; In December 2015, it was announced that Jackson had teamed up with Will Packer to produce and appear in the upcoming Fox comedy &#8220;My Friend 50.&#8221;",
+						 "Recognized as one of the most talented and prolific music artists of his time, 50 Cent has managed to leverage his star power into record-breaking brand extensions encompassing a broad spectrum of businesses."
+					],
+					"image": "images/production/jackson.jpg"
+			  }, {
+					"name": "MARK CANTON",
+					"role": "EXECUTIVE PRODUCER",
+					"desc": [
+						 "Mark Canton has been a preeminent force in the entertainment industry helping to bring hundreds of pictures to the screen in his capacity as a senior studio executive and producer. Canton controls a large number of high profile projects in various stages of development, pre-production, production and post-production.",
+						 "In 2014 his film <i>300: Rise of an Empire</i>, the companion to the mega-hit, <i>300</i>, opened to new box office records around the world. Last December, Twentieth Century Fox released The Pyramid, a horror film set against the intersection of ancient Egyptology and modern Archeology, directed by Gregory Levasseur.",
+						 "<i>Cake</i>, a dark comedy written by Patrick Tobin, directed by Daniel Barnz and starring Jennifer Aniston was released in late 2014 to critical and audience acclaim. It was the first project made under a new venture between Cinelou Films and China&#8217;s Shenghua Entertainment. Cinelou is currently shooting The Comedian in New York City, a dark comedy starring Robert DeNiro, Danny DeVito and Leslie Mann.",
+						 "In the television arena, Canton has entered into a first look arrangement with Starz for the development and production of cutting edge, high-concept original programming for the network. Also in television, Canton and CBS Studios have set up &#8220;Friday the 13th&#8221; at the CW, which reimagines the iconic &#8216;Jason&#8217; and the creepy town of Crystal Lake. And at Fox is &#8216;Poison,&#8217; which Atmosphere developed from the hit Spanish series &#8220;Gran Reserve.&#8221;",
+						 "Canton initially joined Warner Bros. as Vice President of Production, rising to Senior Vice President and President of Worldwide Theatrical Production. During his tenure at the studio, Canton was instrumental in creating the notable Batman, Lethal Weapon and National Lampoon&#8217;s Vacation film franchises. His creative influence brought some of today&#8217;s most powerful filmmakers to the fore and some of the studio&#8217;s most successful films to the screen. The latter included Tim Burton&#8217;s <i>Pee Wee&#8217;s Big Adventure</i>, <i>Batman</i>, <i>Beetlejuice</i>, the Academy Award-winning <i>Driving Miss Daisy</i> and Martin Scorsese&#8217;s <i>Goodfellas</i>.",
+						 "He departed Warner Bros. to join Sony Pictures Entertainment&#8217;s Columbia Pictures as Chairman. In the ensuing years he rose to Chairman of the Columbia TriStar Motion Picture Companies, with all creative, operational and management responsibility for Columbia Pictures, Triumph Films, Sony Pictures Classics SPE&#8217;s international theatrical operations and Columbia TriStar&#8217;s strategic motion picture alliances.",
+						 "Soon after joining SPE Canton revitalized motion picture production operations, restructured the marketing and distribution companies and released a wide range of critically-acclaimed action and comedy hits, among them: <i>A Few Good Men</i>, <i>Groundhog Day</i>, <i>In the Line of Fire</i>, <i>Bram Stoker&#8217;s Dracula</i>, <i>Bad Boys</i>, <i>The Net</i>, <i>The Professional</i>, <i>The Fifth Element</i>, and <i>Jumanji</i>. Canton also championed a distinctive slate of dramas and romantic comedies, such as the Oscar-winning <i>Sense and Sensibility</i>, <i>Legends of the Fall</i>, <i>The Mirror Has Two Faces</i>, <i>A League of Their Own</i>, <i>Fly Away Home</i>, <i>Sleepless in Seattle</i>, <i>Poetic Justice</i>, <i>The Age of Innocence</i>, <i>Little Women</i>, <i>The Remains of the Day</i> and <i>The People vs. Larry Flynt</i>.",
+						 "Also produced under Canton&#8217;s aegis at Sony were the Academy Award-winning <i>As Good As It Gets</i>, starring Jack Nicholson and Helen Hunt; Oscar-winner <i>Jerry Maguire</i>, starring Tom Cruise and Cuba Gooding Jr.; <i>Men in Black</i>, starring Will Smith and Tommy Lee Jones; the Julia Roberts romantic comedy <i>My Best Friend&#8217;s Wedding</i>; the thriller <i>Anaconda</i>; and the Wolfgang Peterson film <i>Air Force One</i> starring Harrison Ford. In addition Canton initiated <i>I Know What You Did Last Summer</i>, <i>Starship Troopers</i>, <i>Zorro</i>, <i>Godzilla</i>, and <i>Stepmom</i>.",
+						 "Following Sony, Canton returned to Warner Bros. to create his own production entity, The Canton Company. His first picture was the Christmas classic <i>Jack Frost</i>, followed by the much-anticipated remake of the British cult classic <i>Get Carter</i>, and the dramatic Mars thriller <i>Red Planet</i>.",
+						 "In early 2002 he joined Artists Production Group as a partner, Chairman and CEO and in December 2003, he launched Atmosphere Entertainment MM &#8211; an entrepreneurial venture to develop, produce and finance theatrical motion pictures and television programming.",
+						 "A native of New York, Canton is a UCLA graduate (magna cum laude) and a member of UCLA&#8217;s National Honor Society for American Studies. He delivered the 2011 commencement address at UCLA&#8217;s School of History. In addition to serving on the UCLA Board of Councilors and the Deans Advisory Board for the School of Theatre, Film, and Television, Canton was Vice Chairman of the Board of Directors of the American Film Institute and Founder and is Chairman Emeritus of AFI&#8217;s Third Decade Council. In recent years he has co-chaired the prestigious Ischia Global Film & Music Festival and the Los Angeles, Italia Film Festival."
+					],
+					"image": "images/production/canton.jpg"
+			  }, {
+					"name": "RANDALL EMMETT",
+					"role": "EXECUTIVE PRODUCER",
+					"desc": [
+						 "Randall Emmett is one of the entertainment industry&#8217;s most prolific film producers, having produced over 80 feature films since his start as Mark Wahlberg&#8217;s assistant. Emmett co-founded Emmett/Furla Films, a production company specializing in financing and producing top tier entertainment for the theatrical marketplace. By combining financial acumen with an incisive creative sensibility, he has produced and financed a wide array of films and television.",
+						 "Emmett&#8217;s ability to package films with well-known actors and filmmakers has resulted in major box office success, netting more than one billion dollars in box office sales. He has also forged strong partnerships with major Hollywood studios to finance and distribute commercial films. These films and others have played at world-acclaimed film festivals such as Sundance, Toronto, Berlin, Venice, Telluride, and many have been nominated for Independent Spirit and Golden Globe Awards.",
+						 "Some Emmett produced features include: <i>Lone Survivor</i>, directed by Peter Berg, starring Mark Wahlberg, Taylor Kitsch and Emile Hirsh; <i>2 Guns</i>, starring Mark Wahlberg and Denzel Washington; <i>Broken City</i>, starring Mark Wahlberg, Russell Crowe and Catherine Zeta-Jones; <i>End of Watch</i>, written and directed by David Ayer, starring Jake Gyllenhaal and Michael Pe&#241;a. Other past films include: <i>Narc</i>, <i>Amityville Horror</i>, <i>Bad Lieutenant: Port of Call New Orleans</i>, <i>Righteous Kill</i>, <i>88 Minutes</i>, <i>King of California</i>, and <i>16 Blocks</i>. Emmett/Furla&#8217;s TV division is also currently developing a &#8220;Friday the 13th&#8221; series for CBS/CW and has a first look deal with Pilgrim entertainment.",
+						 "Emmett recently wrapped production on <i>478</i> starring Arnold Schwarzenegger and Scoot McNairy. The highly anticipated drama, <i>Silence</i>, from award-winning director Martin Scorsese, starring Liam Neeson, Adam Driver, and Andrew Garfield is in post production.",
+						 "Born and raised in Miami, Emmett graduated from the respected performing arts high school, New World School of the Arts. As an undergrad, he attended The School of Visual Arts in New York, where he found his calling as a producer. Presently, he speaks at various industry conferences and mentors up and coming filmmakers at UCLA&#8217;s School of Continuing Education. He lives in Los Angeles with his family."
+					],
+					"image": false
+			  }, {
+					"name": "BART WENRICH",
+					"role": "CO-EXECUTIVE PRODUCER",
+					"desc": [
+						 "Bart Wenrich began his television career working in the locations department and served as the location manager on a number of films set in New York City including <i>Swimming to Cambodia</i> (1987), <i>Rooftops</i> (1989), <i>A Shock to the System</i> (1990), <i>A Rage in Harlem</i> (1991), and <i>Malcolm X</i> (1992).",
+						 "Wenrich segued into television on the hit series &#8220;New York Undercover,&#8221; and was promoted to unit production manager until the series ended in 1998. His other television credits as a Unit Production Manager include &#8220;The Sopranos,&#8221; &#8220;Hack,&#8221; &#8220;Jonny Zero,&#8221; &#8220;Love Monkey,&#8221; and &#8220;Gossip Girl.&#8221; In 2009, Wenrich made his directorial debut with the &#8220;Gossip Girl&#8221; webisode spin-off series, &#8220;Chasing Dorota.&#8221; He went on to direct three &#8220;Gossip Girl&#8221; episodes: &#8220;It-Girl Happened One Night,&#8221; &#8220;Raiders of the Lost Art,&#8221; and &#8220;Dirty Rotten Scandals&#8221; in 2011 and 2012. He became Producer in the final season of &#8220;Gossip Girl.&#8221;",
+						 "Wenrich resides in New York with his wife. This is the third season of &#8220;Power&#8221; that he has produced."
+					],
+					"image": false
+			  }, {
+					"name": "SHANA STEIN",
+					"role": "CO-EXECUTIVE PRODUCER",
+					"desc": [
+						 "Shana Stein is a 20-year veteran of the film and television industry, having produced independent films, hit television shows and blockbuster music videos. In independent films, Stein produced <i>Hell Ride</i>, which was executively produced and presented by Quentin Tarantino. <i>Hell Ride</i> premiered at Sundance and stars Vinnie Jones, Dennis Hopper, Michael Madsen and David Carradine and was distributed by the Weinsteins&#8217; Dimension Films. Stein earlier produced <i>Restaurant</i> starring Oscar-winner Adrien Brody and Lauryn Hill. <i>Restaurant</i> premiered at the Los Angeles Independent Film Festival and was distributed globally.",
+						 "Prior to &#8220;Power,&#8221; she co-executively produced three seasons of the CBS drama &#8220;Unforgettable&#8221; and four seasons of the CW drama &#8220;90210.&#8221; She served as Co-Producer on the USA Network original series &#8220;Monk,&#8221; which she worked on for seven seasons.",
+						 "Stein began her career in the iconic agent-training program at the William Morris Agency. After producing music videos, she served as director of development for Steve Golin&#8217;s Anonymous Content.",
+						 "Most recently, Stein developed Anthony Maranville&#8217;s screenplay for television star Poppy Montgomery which is currently in development with Little Engine and ITV. For the pilot teaser, she produced a new-media cell phone project with Microsoft, with new technology they created just for the venture.",
+						 "Stein earned her B.F.A. from New York University&#8217;s Tisch School of the Arts and her MFA from The American Film Institute and currently teaches a course on film and television producing at UCLA."
+					],
+					"image": false
+			  }, {
+					"name": "GARY LENNON",
+					"role": "EXECUTIVE PRODUCER, WRITER EPISODES 302 AND 308",
+					"desc": [
+						 "Gary Lennon is an award-winning writer and producer who has worked in all aspects of the entertainment industry. He began his career in theater, writing the plays, &#8220;Blackout,&#8221; &#8220;Dates and Nuts,&#8221; &#8220;The Interlopers,&#8221; and &#8220;A Family Thing.&#8221; &#8220;The Interlopers&#8221; earned massive praise, received three Ovation and two NAACP nominations and was a LA Times Critics Pick. His other play, &#8220;A Family Thing,&#8221; was also a Los Angeles Critics Pick, earning six LA Weekly and two Los Angeles Critic&#8217;s Circle Nominations. Lennon made his directorial debut with the film .45, starring Milla Jovovich, which he wrote as well.",
+						 "He then transitioned to television where he has worked on many critically- acclaimed shows including &#8220;The Black Donnellys,&#8221; &#8220;The Unusuals,&#8221; &#8220;The Shield&#8221; and &#8220;Black Box.&#8221;",
+						 "He&#8217;s recently gained great success for producing &#8220;Justified&#8221; on FX, earning him a 2011 Peabody Award, 2011 Critic&#8217;s Choice Award Nomination, a 2011 WGA Award and an AFI Award Honoree for Television Program of the Year. Also, he was a Supervising Producer on the Netflix hit &#8220;Orange is the New Black,&#8221; which earned him a Producers Guild Award, a 2014 Peabody Award, a 2013 WGA Nomination and a 2014 Emmy Nomination for Outstanding Comedy Series."
+					],
+					"image": false
+			  }, {
+					"name": "RANDY HUGGINS",
+					"role": "CO-EXECUTIVE PRODUCER, WRITER EPISODE 303",
+					"desc": [
+						 "Randy Huggins began his writing career on FX&#8217;s groundbreaking police drama, &#8220;The Shield,&#8221; as the show&#8217;s writers&#8217; assistant for four seasons. In 2006, Shawn Ryan, the series Showrunner, bought an idea from Huggins and gave him a story by credit for an episode entitled &#8220;Cut Throat.&#8221; That same year, he went with Ryan to work with David Mamet on &#8220;The Unit,&#8221; where Huggins was hired as a staff writer. He worked on the show for four years, wrote five episodes and assisted on countless of others while he was there. Huggins went on to become the Executive Story Editor on Starz&#8217;s first scripted drama, &#8220;Crash,&#8221; where he reunited with Glen Mazzara, his colleague from &#8220;The Shield,&#8221; who served as the series Showrunner. When that show ended, Huggins became a Co-Producer on NBC&#8217;s medical drama, &#8220;Trauma.&#8221; In 2010, Huggins served as a Producer on &#8220;Criminal Minds&#8221; and wrote three episodes before returning to NBC as the Supervising Producer on their cop drama, &#8220;Prime Suspect.&#8221;",
+						 "Born and raised in Detroit, Huggins graduated from St. Martin DePorres High School and later received his B.A. in History from Grambling State University. He taught third and fifth grade in the Detroit public school system prior to relocating to Los Angeles, where he currently lives."
+					],
+					"image": false
+			  }, {
+					"name": "HEATHER ZUHLKE",
+					"role": "SUPERVISING PRODUCER, WRITER, EPISODE 304",
+					"desc": [
+						 "Previous to her work on &#8220;Power,&#8221; Heather Zuhlke wrote on all five seasons of TNT&#8217;s critically-acclaimed &#8220;Southland,&#8221; sharing in the cop drama&#8217;s 2012 Peabody Award and winning a 2012 Prism Award for her writing on the show. Zuhlke&#8217;s other television credits include &#8220;Stalker,&#8221; &#8220;Killer Women,&#8221; &#8220;Kaya,&#8221; &#8220;Smith,&#8221; and &#8220;The Evidence.&#8221; She is a 2005 alumni of the Warner Bros. Writer&#8217;s Workshop and started her career as the Executive Assistant to Emmy-winning producer, John Wells. Zuhlke graduated with a B.A. in Communications from California State University, Fullerton."
+					],
+					"image": false
+			  }, {
+					"name": "RAPHAEL JACKSON, JR",
+					"role": "PRODUCER/WRITER, 305, 309",
+					"desc": [
+						 "The second oldest in a family of seven, Raphael Jackson Jr. was born and raised in metro Detroit. Jackson is a University of Michigan graduate who studied extensively in film production. After graduating, he decided to move to Los Angeles where he gained valuable experience working on shows ranging from &#8220;Criminal Minds,&#8221; to &#8220;All of Us.&#8221;",
+						 "In addition to writing on &#8220;Power&#8221; for Season One, Two and Three, Jackson also served as a writer on the critically-acclaimed Starz comedy, &#8220;Survivor&#8217;s Remorse,&#8221; the AMC drama &#8220;Low Winter Sun&#8221; and the NBC drama &#8220;Crossbones,&#8221; created by Neil Cross, the Emmy-nominated creator of &#8220;Luther.&#8221;"
+					],
+					"image": false
+			  }, {
+					"name": "DAMIONE MACEDON",
+					"role": "PRODUCER/WRITER, 305, 309",
+					"desc": [
+						 "Damione Macedon was born in San Francisco and has lived in Phoenix, AZ as well as Reno, NV. While in Reno, his father introduced him to writing through an extensive film collection he had amassed over the years. Macedon graduated from California State University of Northridge with a degree in History. Prior to joining &#8220;Power,&#8221; he wrote for AMC&#8217;s &#8220;Low Winter Sun,&#8221; the NBC drama &#8220;Crossbones,&#8221; and the Starz comedy, &#8220;Survivors Remorse.&#8221; Macedon has been a member of the &#8220;Power&#8221; writing staff for all three seasons."
+					],
+					"image": false
+			  }, {
+					"name": "VLADIMIR CVETKO",
+					"role": "EXECUTIVE STORY EDITOR; WRITER EPISODE 306",
+					"desc": [
+						 "Vladimir Cvetko immigrated to California from the former Yugoslavia. He started his career in television, working on shows such as, &#8220;My Own Worst Enemy&#8221; (NBC) and &#8220;Outlaw,&#8221; (NBC) before landing his first writing assignment for &#8220;Once Upon A Time&#8221; (ABC). In addition to &#8220;Power,&#8221; he currently writes for &#8220;Kingdom&#8221; (DirecTV). He holds a B.A. in English Literature from CSU Chico and received his M.F.A. in Screenwriting from the University of Southern California."
+					],
+					"image": false
+			  }, {
+					"name": "SAFIA M. DIRIE",
+					"role": "STORY EDITOR, WRITER EPISODE 307",
+					"desc": [
+						 "Safia M. Dirie moved to Los Angeles directly after finishing her education to pursue television writing. She received countless hours of experience working for various film and television production companies before landing on &#8220;Power.&#8221; Season Three marks her second season on the show.",
+						 "Dirie holds a B.A. from The University of Tennessee, Knoxville in English Literature and received her M.F.A. in Film Production from Florida State University. She lives in Los Angeles."
+					],
+					"image": false
+			  }, {
+					"name": "JEFF DIX",
+					"role": "STAFF WRITER, WRITER 310",
+					"desc": [
+						 "A native South Dakotan, Jeff Dix studied writing for film and television at Minnesota State University Moorhead, in addition to UCLA. Early in his television career, Dix worked on such hit shows as &#8220;The Big Bang Theory&#8221; (CBS), &#8220;Mike & Molly&#8221; (CBS), and &#8220;Beauty And The Beast&#8221; (The CW). He has been with &#8220;Power&#8221; since its inception: first, as an assistant, before becoming a member of the writing staff."
+					],
+					"image": false
+			  }, {
+					"name": "TIM CHRISTENSON",
+					"role": "PRODUCER/WRITER, 305, 309",
+					"desc": [
+						 "Tim Christenson recently served as Co-Producer on the HBO/Duplass Brothers comedy &#8220;Togetherness,&#8221; as well as on the highly praised HBO series &#8220;How to Make It in America&#8221; alongside Stephen Levinson, Mark Wahlberg, Julian Farino and Ian Edelman. He also teamed with Wahlberg and Levinson on the multi-award-winning HBO drama series, &#8220;In Treatment,&#8221; which ran for three incredible and critically-acclaimed seasons.",
+						 "Christenson&#8217;s early work includes a Co-Producer role on the 2008 adaptation of <i>A Raisin in the Sun</i>, his third collaboration with Craig Zadan and Neil Meron. His sophomore collaboration with Zadan and Meron was as a co-producer on the 2006 Sony Television and A&E made for TV comedy <i>Wedding Wars</i>, and he also co-produced the 2006 NBC comedy series &#8220;The Book of Daniel.&#8221;",
+						 "Christenson served as an Associate Producer on the made for TV movies <i>Jesse Stone: Death in Paradise</i> and <i>Jesse Stone: Stone Cold</i>, and A&E&#8217;s Emmy-nominated <i>Ike: Countdown to D-Day</i>, FOX&#8217;s &#8220;The Tick,&#8221; The WB&#8217;s &#8220;Young Americans,&#8221; and the feature films <i>Who Do You Love</i>, <i>Looking for an Echo</i> and <i>The Gingerbread Man</i>.",
+						 "Christenson makes his home in Kansas City, MO with his wife Kathy while working out of New York and Los Angeles throughout the year."
+					],
+					"image": false
+			  }, {
+					"name": "HERN&#193;N OTA&#209;O",
+					"role": "DIRECTOR OF PHOTOGRAPHY, EPISODES 301, 303, 305, 307, 309",
+					"desc": [
+						 "Hern&#225;n Michael Ota&#241;o is a Director of Photography based out of New York City. The first American-born son of Argentine parents, he has worked his way up through the camera ranks. He started off as a film loader and then graduated to focus, pulling for cinematographers such as Harris Savides, Darius Khondji, Russell Carpenter and Dariusz Wolski. These years were priceless experiences to him; working alongside some of the most innovative cinematographers of the time.",
+						 "He got his first big break in 2001 shooting a narrative short film directed by Dave Silver called <i>Gasline</i>. This short film went on to win the Jury selection prize for Best Short Film at Sundance 2002. In 2004, the two collaborated again on the feature-length film <i>Corn</i>. Ota&#241;o&#8217;s next career highlight came in 2007 as Director of Photography for the feature film <i>Turn the River</i>; written and directed by Chris Eigeman. This film was well received and was nominated for an IFC SPIRIT award in 2007. Independent film continued to shape his career nurturing both a collaborative nature and applied visual style.",
+						 "Ota&#241;o made the transition to larger scale projects and studio films with a spate of camera operator duties on films such as <i>Limitless</i>, <i>Man on a Ledge</i> and others films, all the while taking on Second Unit and additional Director of Photography work on movies such as Gregg Araki&#8217;s <i>Mysterious Skin</i>, stunt work on <i>The Stepfather</i> and recently shooting the dream sequences for James Gray&#8217;s film <i>The Immigrant</i>. He also found a place behind the lens as a camera operator on multiple award-winning television shows such as &#8220;30 Rock&#8221; and &#8220;Girls.&#8221; Ota&#241;o shot episode five on Season One of &#8220;Girls&#8221; and was the Tandem DP on season one of the FX show &#8220;The Americans.&#8221;",
+						 "Season Three of &#8220;Power&#8221; was Otano&#8217;s second season as DP for the hit series. Over his hiatus from &#8220;Power,&#8221; he worked on two episodes (including the season finale) of WGN&#8217;s new hit series, &#8220;Underground.&#8221;"
+					],
+					"image": false
+			  }, {
+					"name": "MAURICIO RUBINSTEIN",
+					"role": "DIRECTOR OF PHOTOGRAPHY, EPISODES 302, 304, 306, 308, 310",
+					"desc": [
+						 "Mauricio Rubinstein was born and raised in Mexico City. He studied film at West Surrey College of Art in Farnham, England. After graduation he went to live and work in Amsterdam, Netherlands; where he was an acclaimed still photographer and began his career in cinema. Rubinstein worked for many years in Holland and Argentina with director Alejandro Agresti, including on the films <i>The Cross</i> (Cannes International Film Festival-Un Certain Regard, 1996) and <i>Wind with the Gone</i> (winner San Sebastian International Film Festival, 1998). Following his collaboration with John Sayles on <i>Casa De Los Babys</i> (2002), Rubinstein moved to New York, where he still resides.",
+						 "Rubinstein received an Emmy-nomination for Best Cinematography for HBO Film&#8217;s <i>Bernard and Doris</i> (2006) from director Bob Balaban, starring Susan Sarandon and Ralph Fiennes. Other television credits include, HBO&#8217;s &#8220;In Treatment,&#8221; CW&#8217;s &#8220;Gossip Girl,&#8221; Sony&#8217;s &#8220;Us and Them,&#8221; and &#8220;Elementary&#8221; on CBS.",
+						 "Rubinstein&#8217;s film credits include: <i>Sorry, Haters</i> (2 Spirit Award nominations), written and directed by Jeff Stanzler, starring Robin Wright, <i>Puccini for Beginners</i> from director Maria Maggenti, <i>New York, I Love You</i>, segment directed by Fatih Akin, <i>The Last Film Festival</i> from director Linda Yellen with Jacqueline Bisset and Dennis Hopper (his last film).",
+						 "Rubinstein was Adjunct Professor of Cinematography Columbia University School of the Arts&#8217; M.F.A. film program from 2010 to 2013."
+					],
+					"image": false
+			  }, {
+					"name": "STEPHEN BEATRICE",
+					"role": "PRODUCTION DESIGNER",
+					"desc": [
+						 "Stephen Beatrice is a celebrated production designer, whose unique designs and creations re-imagine and expound on the natural architecture around him. Among the roster of films he has contributed to over the years are award- winning movies <i>Roger Dodger</i>, starring Campbell Scott and Isabella Rossellini (2002), <i>Love Liza</i> with Philip Seymour Hoffman (2002), <i>The Woodsman</i>, starring Kevin Bacon (2005), and <i>Sherrybaby</i>, starring Maggie Gyllenhaal (2006).",
+						 "Recent projects include, the critically-acclaimed Iraq War film, <i>The Messenger</i>, starring Woody Harrelson and Ben Foster (2009), <i>Then She Found Me</i>, starring and directed by Helen Hunt (2007), and <i>Adventureland</i>, directed by Greg Mottola (2009)."
+					],
+					"image": false
+			  }, {
+					"name": "FRANK L. FLEMING",
+					"role": "COSTUME DESIGNER",
+					"desc": [
+						 "New York City based costume designer and stylist Frank L. Fleming has designed extensively for film and television. Most recently his work can been seen in Marc Forster&#8217;s <i>All I See Is You</i>, starring Jason Clarke and Blake Lively, <i>Draft Day</i>, starring Kevin Costner and Jennifer Garner,<i> Machine Gun Preacher</i>, starring Gerard Butler, <i>Morning Glory</i>, starring Rachel McAdams and Harrison Ford, as well as several other feature film and television projects including the Oscar®-nominated, <i>The Kite Runner</i>.",
+						 "Fleming has designed several features with notable directors including Marc Forster, Steven Spielberg, Ridley Scott, Michael Apted, Jodie Foster, Spike Lee and Anthony Hemingway. In particular, early in his career, he participated in the design of <i>Malcolm X</i> and <i>Amistad</i>, both of which earned Academy Award-nominations for Ruth E. Carter. Fleming&#8217;s experience extends to celebrity styling and has landed Keri Russell on several &#8220;best dressed&#8221; lists."
+					],
+					"image": false
+			  }, {
+					"name": "JEFF RUSSO",
+					"role": "COMPOSER",
+					"desc": [
+						 "Emmy-nominated and Grammy-nominated musician, Jeff Russo has become a prominent composer, songwriter and arranger in the film and television industry. Russo composed the music for FX&#8217;s Emmy and Golden Globe-winning series, &#8220;Fargo,&#8221; for which he received an Emmy-nomination. He has since scored the second season of the series and is currently working on the third season. In addition to creating the music for &#8220;Power,&#8221; Russo recently composed the music for Spike&#8217;s &#8220;Tut,&#8221; starring Ben Kingsley and also collaborated with Zoe Keating on both WGN&#8217;s &#8220;Manhattan&#8221; and A&E Network&#8217;s &#8220;The Returned.&#8221; Russo created the original score for USA Network&#8217;s &#8220;Necessary Roughness,&#8221; starring Callie Thorne, Marc Blucas and John Stamos. Jeff&#8217;s work can be heard in various other television shows such as ABC&#8217;s &#8220;Charlie&#8217;s Angels,&#8221; &#8220;Castle&#8221; and &#8220;What about Brian,&#8221; Showtime&#8217;s &#8220;Shameless&#8221; and &#8220;Weeds,&#8221; NBC&#8217;s &#8220;Smash,&#8221; &#8220;Crossing Jordan&#8221; and &#8220;Bionic Woman.&#8221;",
+						 "In 2013, he worked on several feature films, including Shoreline Entertainment&#8217;s <i>Watercolor Postcards,</i> starring Laura Bell Bundy, and the independent feature, <i>Free Ride</i>, starring Anna Paquin, Cam Gigandet and Drea de Matteo.",
+						 "In addition to composing music for film and television, Russo is still active as a founding member, Lead Guitarist and Co-Songwriter of two-time Grammy- nominated, multi-platinum selling rock band Tonic. Their debut album, &#8220;Lemon Parade,&#8221; posted three singles in the U.S. Mainstream rock charts&#8217; Top 10, with &#8220;If You Could Only See,&#8221; rocketing to number one. In 2003, the band received two Grammy-nominations, one for &#8220;Best Rock Performance by a Duo or Group with Vocal&#8221; for &#8220;Take Me As I Am&#8221; and one for &#8220;Best Rock Album.&#8221;",
+						 "Russo is slated to begin work on the upcoming HBO mini-series, &#8220;The Night Of,&#8221; starring John Turturro, ABC&#8217;s &#8220;Time After Time,&#8221; from creator Kevin Williamson, CBS&#8217;s newest Steven Spielberg series, &#8220;American Gothic,&#8221; and SyFy&#8217;s anthology series, &#8220;Channel Zero.&#8221;",
+						 "Russo has also composed music for the New York Ballet Company Cedarlake Ensemble."
+					],
+					"image": false
+			  }, {
+					"name": "ANITA GIBSON",
+					"role": "DEPARTMENT HEAD MAKE-UP",
+					"desc": [
+						 "Anita Gibson is raising the bar in the world of beauty as an accomplished makeup artist and the head of the makeup department for two seasons of &#8220;Power.&#8221;",
+						 "A respected makeup artist in film and television, Gibson has worked with Denzel Washington, Kerry Washington, Kate Winslet, Angela Bassett, Jennifer Hudson, Alfre Woodard, Halle Berry, Naomi Campbell, Mariah Carey, Robert De Niro, Whoopi Goldberg, Salma Hayek, Gugu Mbatha-Raw, Nate Parker, Ron Howard, Samuel L. Jackson, Michael Jordan, Tommy Lee Jones, Chaka Khan, Boris Kodjoe, Sanaa Lathan, Spike Lee, Delroy Lindo, Anthony Mackie, Garry Marshall, Debbie Morgan, Paul Newman, Thandie Newton, Nicole Ari Parker, Ving Rhames, John Ritter, Chris Rock, Martin Scorsese and Russell Simmons to name a few.",
+						 "Gibson&#8217;s work has been seen on HBO, ABC, CBS and in several Spike Lee movies (<i>Forty Acres & a Mule</i>). In addition, she boasts an impressive list of film and television credits including, <i>Beyond the Lights</i>, <i>Top Five</i>, <i>Black Nativity</i>, <i>The Inevitable Defeat of Mister & Pete</i>, <i>Good Deeds</i>, <i>We The Peeples</i>, <i>Madea&#8217;s Big Happy Family</i>, <i>For Colored Girls</i>, <i>Why Did I Get Married Too?</i>, <i>Madea Goes to Jail</i>, <i>Notorious</i>, <i>Miracle at St. Anna</i>, <i>Inside Man</i>, <i>She Hate Me</i>, <i>Brooklyn</i>, <i>Maid in Manhattan</i>, <i>Brown Sugar</i>, <i>Love & Basketball</i>, <i>Out of Sight</i>, <i>He Got Game</i>, <i>Only in America</i>, <i>Space Jam</i>, <i>Girl 6</i>, <i>Clockers</i>, <i>Bringing Out the Dead</i>.",
+						 "Gibson is currently working on a new cosmetics line and her work can be seen on Kerry Washington in the HBO film <i>Confirmation</i> in 2016."
+					],
+					"image": false
+			  }, {
+					"name": "DAVID HOPWOOD",
+					"role": "PRODUCER",
+					"desc": [
+						 "David Hopwood is a Los Angeles native who graduated from The University of Southern California with degrees in Creative Writing and Cinema/Television. He began his career in entertainment in the training program of Michael Ovitz&#8217; Artist Management Group. There he worked for esteemed talent manager and producer, Ellen Goldsmith-Vein (CEO of The Gotham Group).",
+						 "In 2002, he joined former studio chief, Mark Canton (<i>300</i>, <i>Immortals</i>) at the foundation of Atmosphere Entertainment. For 13 years, he oversaw the slate at Atmosphere Entertainment as Senior VP of Film & Television Production and Development. In this post, he shepherded the films <i>Piranha 3D</i>, <i>Letters to Juliet</i>, <i>Immortals</i>, <i>Escape Plan</i> and <i>300: Rise of an Empire</i> and the hit television series &#8220;Power&#8221; for Starz. In addition to Starz, he has developed projects with AMC, FOX, E1, and CW Network. He currently holds the post of Executive Vice President of Production and Development at Atmosphere and Cinelou Films."
+					],
+					"image": false
+			  }, {
+					"name": "BRIAN B. BADIE",
+					"role": "DEPARTMENT HEAD HAIR",
+					"desc": [
+						 "One of today&#8217;s most innovative celebrity hairstylists, Brian Benedict Badie is a driving force in film and television. Born and raised in New Orleans, Louisiana, Badie has always considered himself an artist in every realm - music, art, fashion and dance. His innovation comes to life in a host of critically acclaimed television series and blockbuster films.",
+						 "In 1984, Badie began attending Louisiana State University where he pursued a bachelor&#8217;s degree in Fashion Merchandise. Going into his junior year, he decided to transition from pursuing a college degree to seeking a full-time career as an artist.",
+						 "In 1991, at the age of 26, Badie began his love for the art of hair design after graduating from Moler Beauty College in New Orleans. After catching the eyes of the legendary hairstylist, Robert Louis Stevenson, Badie earned the position of Key Hairstylist on the feature film, <i>Eve&#8217;s Bayou</i>. This opportunity awarded him with the mentorship of Stevenson, then continuing his career as a hairstylist on film projects such as CBS&#8217;s <i>Having Our Say: The Delany Sisters&#8217; First 100 Years</i> and HBO&#8217;s <i>A Lesson Before Dying</i>, as well as the multi-award-winning HBO mini-series, &#8220;The Corner.&#8221;",
+						 "In 2001, Badie relocated to New York City, where he debuted as a Department Head Hairstylist with the critically-acclaimed, Oscar-winning film <i>Monster&#8217;s Ball</i> and indie films, <i>Shadowboxer</i> and <i>The Cookout</i>. He gained experience and opportunities, working on many blockbuster films, including <i>I am Legend</i>, <i>Miracle at St. Anna</i>, and <i>American Gangster</i>.",
+						 "Brian has created hair designs on NBC&#8217;s &#8220;Law and Order: SVU&#8221; for seven seasons, three seasons of &#8220;Power&#8221; and for WGN&#8217;s new series, &#8220;Underground.&#8221;",
+						 "Badie&#8217;s unrivaled body of work has caught the eye of some of Hollywood&#8217;s biggest stars, directors and producers, including Hellen Mirren, Mariska Hargitay, Heath Ledger, Cuba Gooding Jr., Jurnee Smollett-Bell, Viola Davis, Bobby Cannavale, Debi Mazar, Kathy Griffin, Anthony Hemingway, Nina Jacobson, Brad Simpson, Marc Forster, Lee Daniels and Akiva Goldsman."
+					],
+					"image": false
+			  }
+	  		]
+    }, {
+        "name": "Cast",
+		  "class": "cast",
+		  "link": "cast",
+        "menu": true,
+		  "maincontent": "CastBio",
+		  "sidemenu": true,
+		  "video": false,
+		  "hidemenu": false,
+		  "loop": true,
+		  "background": "images/backgrounds/angelaghost.jpg",
+		  "content": [{
+					"name": "OMARI HARDWICK",
+					"role": "(James &#8216;Ghost&#8217; St. Patrick)",
+					"desc": [
+						 "Omari Hardwick&#8217;s television credits include &#8220;Saved&#8221; and &#8220;Dark Blue&#8221; for TNT, and BET&#8217;s &#8220;Being Mary Jane,&#8221; for which he earned 2 NAACP Image Award nominations. He made his television series debut in Showtime&#8217;s &#8220;Sucker Free City&#8221; for director Spike Lee. Feature credits include the upcoming <i>Shot Caller</i> for director Ric Waugh, Lionsgate&#8217;s <i>For Colored Girls</i>, Sony Pictures&#8217; <I>Sparkle</I>, indies <i>Middle of Nowhere</i> and <i>I Will Follow</i>, both for director Ava DuVernay, 20th Century Fox&#8217;s <i>The A-Team</i>, Lionsgate&#8217;s <i>Kick- Ass</i> for director Matthew Vaughn, Touchstone&#8217;s <i>Miracle at St. Anna</i>, reuniting him with director Spike Lee, Touchstone&#8217;s <i>The Guardian</i> opposite Kevin Costner and Ashton Kutcher, and Columbia&#8217;s <i>Gridiron Gang</i>. In addition, Hardwick is an accomplished poet and spoken word artist. He has written over 4,000 poems, including &#8220;Little Black Boy Wonder,&#8221; performed and produced by Hardwick with Marlon Wayans, David Oyelowo, Eriq LaSalle, Jay Ellis, Sugar Shane Mosely, Bill Duke, among others.",
+						 "Born Omari Latif Hardwick, he grew up in Decatur, Georgia. By the age of 14, Hardwick was writing poetry on a regular basis, a passion he would carry with him into adulthood. In high school, he excelled at basketball, baseball, and football, and went on to play football at the University of Georgia. A star on the field, Hardwick never gave up his passion for acting, and minored in theater in college. After graduation, Hardwick relocated to San Diego for a spot on the San Diego Chargers (NFL), though a knee injury cut his football career short. He then decided to revisit his original passion for acting and moved to New York to study the craft more extensively. He moved to Los Angeles and got his first big break in 2003, when he was cast as a series regular in Spike Lee&#8217;s &#8220;Sucker Free City.&#8221;"
+					],
+					"image": "images/cast/hardwick.jpg"
+			  },{
+					"name": "LELA LOREN",
+					"role": "(Angela Valdes)",
+					"desc": [
+						 "Lela Loren has impressed audiences through her work in film, television, theater, and even the digital space. She continues to show her outstanding range and grace in a variety of projects.",
+						 "Loren was most recently seen in FOX&#8217;s &#8220;Gang Related&#8221; alongside Terry O&#8217;Quinn, Jay Hernandez and Ramon Rodriguez where she plays Silvia, caught in a love triangle with the two leads. Last year, she gave a standout performance in the thrilling Summit Entertainment film <i>Snitch</i> where she co-starred alongside Jon Bernthal and Dwayne Johnson. She also appeared in a lead role in the Lifetime television movie <i>Stalkers</i>, opposite Drea de Matteo and Mena Suvari. The film is based on the true story of the prosecutor who authored the stalking law in California.",
+						 "Loren has ventured into comedy as well, appearing in Warner Bros.&#8217; <i>The Hangover Part III</i> and Sony Pictures&#8217; <i>Reign Over Me</i> opposite Adam Sandler and Don Cheadle.",
+						 "She also starred in the Bryan Singer-produced web series &#8220;H+,&#8221; a joint venture with Warner Bros. Digital Distribution and YouTube. Loren has guest starred on a number of popular television series including: &#8220;The Closer,&#8221; &#8220;Covert Affairs,&#8221; &#8220;Lost,&#8221; &#8220;The Mentalist,&#8221; &#8220;Chuck,&#8221; &#8220;NCIS,&#8221; &#8220;The Unit,&#8221; &#8220;The Shield,&#8221; &#8220;CSI: NY,&#8221; &#8220;CSI: Miami,&#8221; &#8220;Cold Case,&#8221; and many more.",
+						 "In 2009, she gave a raved-about, leading performance on stage in &#8220;Boleros for the Disenchanted&#8221; written by Jos&#233; Rivera (acclaimed screenwriter of <i>The Motorcycle Diaries</i>). She was hailed as &#8220;first among equals&#8221; and &#8220;a rare find&#8221; for her portrayal as Flora.",
+						 "Lela Loren was born and raised in California. She is multilingual: fluent in English, Spanish and Italian."
+					],
+					"image": "images/cast/loren.jpg"
+			  },{
+					"name": "NATURI NAUGHTON",
+					"role": "(Tasha St. Patrick)",
+					"desc": [
+						 "Naturi is a singer and actress best known for her performances as &#8216;Lil Kim&#8217; in Fox Searchlight&#8217;s hit film <i>Notorious</i> and her role in MGM&#8217;s remake of the classic film <i>Fame</i>. Naughton has starred in various other projects including Warner Bros.&#8217; <i>Lottery Ticket</i>, where she starred opposite Loretta Devine, Ice Cube, Mike Epps, and Bow Wow. On the small screen, Naughton is known for her memorable guest performances on &#8220;Mad Men&#8221; and &#8220;It&#8217;s Always Sunny in Philadelphia&#8221; and her roles on &#8220;The Playboy Club&#8221; and &#8220;The Client List.&#8221; She also appeared on Broadway in the Tony Award-winning musical, &#8220;Hairspray&#8221; for three years.",
+						 "Before her transition into film and television, Naughton was a member of the Platinum selling pop trio 3LW. She was greatly inspired by Whitney Houston as a child and knew by the age of five that she wanted to be a singer and an actress.",
+						 "Naughton was born and raised in East Orange, New Jersey and attended Seton Hall University. She believes that her faith, tenacity and fearlessness will give her longevity and continue her prosperous career. Recently, Naughton was honored with top awards by Women Entertainment Executive Network (WEEN), NAACP Image Awards nominee, CIROC Women of Empowerment, Black Women Film Summit, and more.",
+						 "Naughton currently splits her time between Los Angeles and New York."
+					],
+					"image": "images/cast/naughton.jpg"
+			  },{
+					"name": "JOSEPH SIKORA",
+					"role": "(Tommy Egan)",
+					"desc": [
+						 "Joseph Sikora has been establishing himself as an actor who tackles the complexities of both the internal and external life of a character <i>Jack Reacher</i> as a soldier who turns inward becoming a killing machine and in Lionsgate&#8217;s <i>Safe</i>, as a Russian gangster and nemesis to Jason Statham.",
+						 "Born in Chicago through his ability to speak with any accent and morph into different lives. He recurred in season one of HBO&#8217;s &#8220;True Detective&#8221; as gnarly biker, &#8216;Ginger&#8217;, opposite Matthew McConaughey in a famous six-minute uncut action shot. In film, Sikora starred in Chris Mcquarrie&#8217;s <i>Jack Reacher</i>. Sikora studied improv and scored a Joseph Jefferson nomination for one of the many plays he starred in within the prestigious Chicago theater community. He has appeared on and off Broadway in New York and in addition to winning an L.A. Theatre Ovation Award for the West Coast premiere of Tracy Letts&#8217; &#8220;Killer Joe&#8221; at the Lost Angels Theater, he was in Neil LaBute&#8217;s &#8220;Fat Pig&#8221; at the acclaimed Geffen Theater. In television he&#8217;s been seen guest starring in over three dozen television programs, including the Martin Scorsese directed pilot episode of &#8220;Boardwalk Empire,&#8221; &#8220;Banshee,&#8221; &#8220;CSI: NY,&#8221; &#8220;CSI: Miami,&#8221; &#8220;Criminal Minds,&#8221; &#8220;Law and Order: SVU,&#8221; and &#8220;Grey&#8217;s Anatomy&#8221; and starred opposite Jessica Lange and Tom Wilkinson in the acclaimed HBO film <i>Normal</i>. Sikora was also seen in Scorsese&#8217;s <i>Shutter Island</i> and David Schwimmer&#8217;s directorial debut <i>Trust</i> opposite Clive Owens. He will also recur in WGN: America&#8217;s series, &#8220;Underground.&#8221;",
+						 "Sikora is based in New York City."
+					],
+					"image": "images/cast/sikora.jpg"
+			  },{
+					"name": "ROTIMI AKINOSHO",
+					"role": "(Dre)",
+					"desc": [
+						 "Rotimi Akinosho is a singer-songwriter, actor, and model who won Apollo Theater&#8217;s &#8220;Amateur Night&#8221; twice at the age of 15. He had the opportunity to perform for Jay-Z during his senior year of high school. While at Northwestern University, in pursuit of his Bachelor of Science in Communications and Business, he began to explore a career in acting.",
+						 "Rotimi landed his first acting role on Starz critically-acclaimed series, &#8220;Boss&#8221; for two seasons, and had re-occurring roles in &#8220;Betrayal&#8221; on ABC and &#8220;Battle Creek&#8221; on CBS.",
+						 "Rotimi made his feature film debut in Fox Searchlight&#8217;s 2013 Christmas movie, <i>Black Nativity</i> and later starred in the film <i>Divergent</i> and <i>Imperial Dreams</i>, which premiered at the 2014 Sundance Film Festival. He recently wrapped up <i>Deuces</i> with Lance Gross, Meagan Good and Larenz Tate.",
+						 "Rotimi was a feature model/ spokesperson for Grammy Award-winning rapper TI&#8217;s AKOO Clothing Brand in the 2012 Spring/Summer campaign, and has starred in a music video for Keyshia Cole, T.I., Keke Palmer and Pusha T&#8217;s short film <i>Darkest Before Dawn</i>.",
+						 "As a contemporary R&B artist, Rotimi released two stellar digital music projects, &#8220;The Resume&#8221; (2011) and &#8220;While You Wait&#8221; (2012). In 2012, BET&#8217;s &#8220;106 & Park&#8221; featured Rotimi as their spotlight artist, leading to the words &#8220;Rotimi&#8221; and &#8220;Beautiful Music&#8221; trending worldwide on Twitter. Rotimi recently released his single, &#8220;Lotto&#8221; featuring 50 Cent of his mixtape &#8220;Royal Wednesday&#8221; (2015). He is currently gearing up to release his EP, &#8220;Rotation.&#8221;"
+					],
+					"image": "images/cast/akinosho.jpg"
+			  },{
+					"name": "ANDY BEAN",
+					"role": "(Greg Knox)",
+					"desc": [
+						 "Andy Bean can be seen opposite Shailene Woodley and Theo James in Robert Schwentke&#8217;s <i>The Divergent Series: Allegiant</i>, the third installment of the Summit/Lionsgate Divergent franchise. He recently wrapped starring with Michael Shannon and Lou Taylor Pucci in the independent film <i>Poor Boy</i>, directed by Robert Scott Wildes, as well as starring in the independent film <i>Bad Vegan and the Teleportation Machine</i>, directed by Anton Goenechea. Bean started his career in the theater world where he starred as Trip in Jon Robin Baitz&#8217;s &#8220;Other Desert Cities&#8221; at The Old Globe Theater in San Diego, starred in &#8220;Long Days Journey Into Night,&#8221; at the prestigious Arena Theatre and Theresa Redbeck&#8217;s &#8220;Seminar,&#8221; which was nominated for a 2012 Tony Award for Best Play.",
+						 "Bean grew up in Carrollton, Texas, where his love of acting originated as a carpenter for his high school&#8217;s theater productions. He was catapulted from behind the scenes when he entered an acting contest because he heard it would mean a free stay at a fancy hotel with his friends. He won first place and the hotel was just so-so. Bean began his training under scholarship at the revered two-year intensive theatre program at Collin College. He went on to attend the prestigious four-year Acting Conservatory at SUNY Purchase in New York from which he graduated with honors. After his studies, Bean began to work in New York City, becoming a founding member of the Brooklyn-based theatre company, Glass Bandits, as well as appearing in independent films such as <i>Neptunus Rex</i> and <i>Couchgarden</i>.",
+						 "Bean resides in Los Angeles and splits his time between LA and NYC."
+					],
+					"image": "images/cast/bean.jpg"
+			  },{
+					"name": "JERRY FERRARA",
+					"role": "(Joe Proctor)",
+					"desc": [
+						 "Few actors in Hollywood have had a career quite as diverse as Jerry Ferrara. The three-time Screen Actors Guild Award-nominee has gone from co-starring as &#8216;Turtle,&#8217; the lovable best friend to &#8216;Vincent Chase&#8217; over eight seasons of HBO&#8217;s highly acclaimed &#8220;Entourage,&#8221; to working alongside such internationally renowned directors as Peter Berg and Jon Turteltaub. From starring in films opposite De Niro and Mark Wahlberg to reuniting with his cast members of the hugely successful, Think Like A Man, nobody has been busier than Ferrara since the finale of &#8220;Entourage.&#8221;",
+						 "Ferrara rounded out a great 2013 with roles in Turteltaub&#8217;s <i>Last Vegas</i>, which also starred Hollywood heavyweights Michael Douglas, Kevin Kline, Robert De Niro and Morgan Freeman, followed by <i>Lone Survivor</i>, opposite Wahlberg, Emile Hirsch and Taylor Kitsch.",
+						 "Ferrara will next be seen in the Clint Eastwood directed film, <i>Sully</i>, alongside Tom Hanks, which will be in theaters September 2016. Ferrara&#8217;s other recent credits include <i>Think Like A Man Too</i>, in which Ferrara reprised his role of Jeremy, in the highly anticipated sequel to the $100 million dollar grossing <i>Think Like A Man</i>, and <i>The Life</i> alongside Jessica Szohr (&#8220;Gossip Girl&#8221;). Ferrara is also attached to play two-time world champion boxer &#8216;Arturo Gatti,&#8217; in an untitled biopic executive produced by Mark Wahlberg.",
+						 "Born in Brooklyn, Ferrara began studying theater in college and was inspired by a teacher to pursue acting. An agent he met at a talent showcase encouraged him to move to Los Angeles, where he quickly landed his first role on the hit TV sitcom &#8220;King of Queens.&#8221; Other television roles quickly followed, including roles on &#8220;NYPD Blue&#8221; and &#8220;Grounded for Life.&#8221; Ferrara then landed a role in the MTV scripted pilot &#8220;Cross Bronx,&#8221; opposite Max Greenfield (&#8220;New Girl&#8221;), which ultimately became an independent feature film that premiered at the 2004 Tribeca Film Festival. As fate would have it, &#8220;Entourage&#8221; producer, Stephen Levinson saw him in the film and called him to audition for the show. After five months of auditioning and shooting the pilot, Mark Wahlberg called him to say that &#8220;Entourage&#8221; had been picked up.",
+						 "From 2004-2011, Ferrara played the role of &#8216;Turtle,&#8217; the loyal, albeit laziest of &#8216;Vinny Chase&#8217;s&#8217; three best friends on the hit HBO series &#8220;Entourage.&#8221; During the filming of the final season, Ferrara committed to a healthy diet and regular workout routine &#8211; dropping 55 pounds from his formerly stout physique.",
+						 "Ferrara is a diehard sports fanatic &#8211; cheering on the NY Giants during football season, the Mets during baseball season and the Knicks during basketball season. If he didn&#8217;t have the red hot acting career that he does, he would for sure have his own sports talk radio show.",
+						 "As a testament to his entrepreneurial spirit, Ferrara partnered with longtime friends Josh Stone and Sal Copek to open Fat Sal&#8217;s, a Los Angeles based sandwich shop near the UCLA campus &#8211; customers order at a hotdog stand style window and can sit at bar stools and counters that look out onto the street. The menu offers the typical American-style food items &#8211; hot dogs, burgers, sandwiches, fries, chicken strips, mozzarella sticks &#8211; with one catch: all of the ingredients are piled into one giant sandwich. The menu has made for the perfect late-night dining experience in the college community of Westwood and has proved so popular that Ferrara and his partners have recently opened new locations in Hollywood, San Diego and Austin, TX.",
+						 "Ferrara still has close ties to his family in Brooklyn while residing primarily in Hollywood."
+					],
+					"image": "images/cast/ferrara.jpg"
+			  },{
+					"name": "DAVID FUMERO",
+					"role": "(Mike Sandoval)",
+					"desc": [
+						 "David Fumero was born in Havana, Cuba. He immigrated to New Jersey with his family when he was 8 years old where they spent a few years before settling in Miami, Florida. Fumero first began his career in his early 20s as an international fashion model for such fashion powerhouses as Versace, Armani, John-Paul Gaultier, and Dior. It was at that time that he began studying acting at the International Actors Studio in Paris until landing his first role as &#8216;Cristian Vega&#8217; on the daytime soap opera &#8220;One Life to Live,&#8221; which filmed in New York City. He would work on the soap on and off for the next 14 years filming almost 500 episodes, until exiting the series in 2011. The epitome of the hard working actor, Fumero was constantly on the hunt for other projects landing guest star roles on hit shows such as &#8220;CSI: NY,&#8221; &#8220;CSI: Miami,&#8221; and &#8220;Law & Order: Criminal Intent.&#8221; Film credits include the independent feature film <i>Greetings from the Shore</i> (2007), <i>Crazy Bitches</i> (2014), as well as numerous short films. Fumero currently resides in Los Angeles with his wife, actress Melissa Fumero. His hobbies include fitness, surfing, snowboarding, and drinking lots of coffee."
+					],
+					"image": "images/cast/fumero.jpg"
+			  },{
+					"name": "SHANE JOHNSON",
+					"role": "(Cooper Saxe)",
+					"desc": [
+						 "Shane Johnson was born in Spokane, Washington. His mom, dad, three brothers and their families still reside in the rural farming areas of central Washington State. He attended Whitman College in Walla Walla, WA, where he received a BFA and then on to LAMDA (London Academy of Music and Dramatic Arts) for classical training as an actor.",
+						 "Johnson&#8217;s first film credit dates back to <i>Saving Private Ryan</i> where he was cast while still studying at LAMDA. From there he enjoyed a variety of film roles including starring in <i>Black Cadillac</i> and supporting roles in <i>Behind Enemy Lines</i>, <i>Pumpkin</i>, <i>Take</i> and <i>Chez Upshaw</i>. Most recently he can be seen as the titular role in <i>The Possession of Michael King</i> currently available on Starz Play On Demand. Also of note, is the 2015 Joshua Knoller directed short <i>Talk to Me</i>, for which Johnson received multiple best actor awards.",
+						 "On the small screen, Johnson&#8217;s recent notable guest starring roles include &#8220;Criminal Minds&#8221; as a crazed pyromaniac psychopath, &#8220;Castle&#8221; as a murderous cop, &#8220;Raising the Bar,&#8221; as a paranoid schizophrenic, &#8220;CSI: Miami,&#8221; as a pedophile, &#8220;Private Practice,&#8221; as a troubled baby killing dad, and a highly acclaimed turn on &#8220;Cold Case,&#8221; as a gay cop who falls victim to intolerance.",
+						 "In addition to his acting career, Johnson writes and produces with his wife, actress Keili Lefkovitz (Michael Bay&#8217;s Pain & Gain); their unnamed animated feature is slated for production in 2016-17.",
+						 "Johnson, Lefkovitz and their two amazing boys Shepard and Gunner live in Los Angeles."
+					],
+					"image": "images/cast/johnson.jpg"
+			  },{
+					"name": "CALLAN MULVEY",
+					"role": "(Dean)",
+					"desc": [
+						 "One of Australia&#8217;s leading actors, Callan Mulvey is best known for his starring roles in the television series&#8217; &#8220;Rush,&#8221; &#8220;Bikie Wars: Brothers in Arms&#8221; and &#8220;Underbelly,&#8221; as well as Darren Ashton&#8217;s feature film, Thunderstruck. Mulvey first graced Australian screens, in the highly successful television drama series, &#8220;Heartbreak High.&#8221;",
+						 "Mulvey, now firmly established internationally, made his American film debut in Katherine Bigelow&#8217;s <i>Zero Dark Thirty</i>. His additional film credits include <i>300: Rise of an Empire</i> and <i>Captain America The Winter Soldier</i>. He was part of an all-star ensemble cast for the critically acclaimed film <i>The Turning</i>, as well as starring opposite Katie Holmes in <i>Miss Meadows</i>, and opposite Sullivan Stapleton, Simon Pegg and Teresa Palmer in Kriv Stenders&#8217; crime thriller, <i>Kill Me Three Times</i>.",
+						 "In 2016 Mulvey will be seen in Zack Snyder&#8217;s highly anticipated <i>Batman vs Superman: Dawn of Justice</i>, co-starring in <i>Delirium</i>, a thriller produced by Leonardo DiCaprio, and in the feature film, <i>Beyond Skyline</i> with Frank Grillo."
+					],
+					"image": "images/cast/mulvey.jpg"
+			  },{
+					"name": "MICHAEL RAINEY, JR.",
+					"role": "(Tariq St. Patrick)",
+					"desc": [
+						 "Actor Michael Rainey Jr. can be seen this year starring opposite Ice Cube, Cedric The Entertainer and Nick Minaj in <i>Barbershop 3: The Next Cut</i>, the anticipated third installment of the comedy franchise <i>Barbershop</i> for Warner Brothers Pictures. In the movie, Rainey plays the role of &#8216;Jalen&#8217;, the teenage son to Ice Cube&#8217;s character. Rainey is also set to star in <i>Amateur</i>, a Netflix movie in connection with Mandalay Bay Entertainment. Rainey will play the lead role of &#8216;Terron Forte,&#8217; a young man whose basketball highlight video goes viral and causes quite the stir worldwide. Produced by Jason Michael Berman and Chip Hourihan, the film is written and directed by Ryan Koo, a participant in the 2014 Sundance Screenwriting Lab.",
+						 "Born September 22 in Louisville, Kentucky and raised in Staten Island, New, York where he currently lives, Rainey made his first on-screen appearance in &#8220;Sesame Street&#8221; and doing commercials and music videos. In 2009, the 9 year old made his way to the big screen in the international film, <i>Un Altro Mondo</i>, directed by and starring Silvio Muccino. In order to prepare for the lead character, &#8216;Charlie&#8217;, Rainey had to live in Italy for some time and became fluent in Italian.",
+						 "Rainey&#8217;s first film in America was Sheldon Canis&#8217; <i>LUV</i>, where he starred alongside Common, Danny Glover, Dennis Haysbert, Meagan Good and Charles Dutton. Michael was also featured in <i>Lee Daniels: The Butler</i> starring Forest Whitaker and Oprah Winfrey, where he played the &#8216;Butler&#8217; as a child.",
+						 "In his spare time, Rainey gives back to the community through his involvement in Find and Feed, a non-profit dedicated to helping those in need, regardless of race, gender or economic status. He also does independent work shopping for the less fortunate during Christmas time, supplying coats and feeding the homeless. Rainey enjoys playing the piano, making music, playing basketball, playing video games and playing with his two terriers."
+					],
+					"image": "images/cast/rainey.jpg"
+			  },{
+					"name": "J.R. RAMIREZ",
+					"role": "(Julio)",
+					"desc": [
+						"J.R. Ramirez was born in Matanzas, Cuba. When he was still a baby, his family moved to the States and he was raised in Tampa, Florida. Ramirez recurs on Fox&#8217;s &#8220;Rosewood&#8221; as &#8216;Detective Frank Escajeda&#8217; and as &#8216;Ted &#8216;Wildcat&#8217; Grant&#8217; on CW&#8217;s top-rated show, &#8220;Arrow.&#8221;",
+						"Previously, Ramirez starred as &#8216;Cal&#8217; in the Paramount Pictures comedy feature film <i>Drunk Wedding</i>, executive produced by John Hamburg. In addition, he recurred as &#8216;Dr. A.J. Aquino&#8217; on the CW dramedy &#8220;Emily Owens, M.D.&#8221; and in multiple guest star roles and indie films. He first gained notoriety as &#8216;Diego Hernandez&#8217; on &#8220;Tyler Perry&#8217;s House of Payne,&#8221; in which he recurred for two seasons.",
+						"Ramirez is fluent in English and Spanish. He loves the outdoors and is an avid hiker, golfer, tennis & basketball player. He&#8217;s a passionate perfectionist, and currently resides in Los Angeles, CA with his rescue dog, Freddy."
+					],
+					"image": "images/cast/ramirez.jpg"
+			  },{
+					"name": "LUIS ANTONIO RAMOS",
+					"role": "(Carlos &#8216;Vibora&#8217; Ruiz)",
+					"desc": [
+						"Luis Antonio Ramos has established a legacy of work on stage, film, and television since starring opposite his childhood idol and Academy Award winner, Jose Ferrer in <i>The Sun and the Moon</i>. Last fall, he joined the much anticipated ABC drama &#8220;Lucky 7,&#8221; an adaptation of the British series, &#8220;The Syndicate.&#8221; He played Antonio Clemente, the outgoing, optimistic, cheerful, and charming gas station mechanic. A happily married father of three, he unfortunately pulls out of the lottery pool in order to save up money to buy his wife the new toaster she&#8217;s always wanted. After his fellow employees win the lottery, he seems the most unfortunate &#8212; but as the secrets and problems of the others become apparent, the dynamic changes.",
+						"Ramos is best known for his role as &#8216;bail bondsman, Ricky Guzman on USA Network&#8217;s &#8220;The Huntress,&#8221; for which he was nominated for an Alma Award in 2002. Ramos has earned critical acclaim for his extensive career in television, having been a series regular on &#8220;The Brian Benben Show&#8221; and &#8220;Queens,&#8221; and had recurring roles on &#8220;Early Edition,&#8221; &#8220;In the House,&#8221; &#8220;Ink,&#8221; and &#8220;Martin.&#8221; Ramos has also guest starred on such renowned shows as &#8220;How to Make it in America,&#8221; &#8220;Common Law,&#8221; &#8220;Burn Notice,&#8221; &#8220;The Unit,&#8221; &#8220;The Closer,&#8221; &#8220;Numb3rs,&#8221; &#8220;The Shield,&#8221; &#8220;CSI: Miami,&#8221; &#8220;CSI: Crime Scene Investigation,&#8221; &#8220;Nip/Tuck,&#8221; &#8220;Friends,&#8221; &#8220;Alias,&#8221; &#8220;NYPD Blue,&#8221; &#8220;Law and Order&#8221; and &#8220;Madam Secretary&#8221; to name a few.",
+						"Last fall, Ramos was seen in <i>A Miracle in Spanish Harlem</i> where he played the lead character of Tito. Other film credits include Spike Lee&#8217;s <i>Do the Right Thing</i>, <i>Trouble in the Heights</i>, <i>The Ministers</i>, <i>Sea of Love</i>, <i>The Secret of My Success</i>, <i>Moscow on the Hudson</i>, and Christopher Hampton&#8217;s <i>Imagining Argentina</i> opposite Antonio Banderas and Emma Thompson, among others.",
+						"He has also excelled as a theater actor, having won the Helen Hayes Award for Best Actor for his work in the play &#8220;Stand Up Tragedy,&#8221; and most recently the critically acclaimed one man show &#8220;Growing up Gonzales.&#8221; Other theater credits include &#8220;Dancing on her Knees&#8221; (by Nilo Cruz), &#8220;Cloud Tectonics&#8221; (by Jos&#233; Rivera), &#8220;Romeo and Juliet,&#8221; &#8220;Tears Will Tell It All,&#8221; &#8220;Widows,&#8221; &#8220;Richard II,&#8221; &#8220;Henry the IV,&#8221; &#8220;Pendragon,&#8221; &#8220;The Sound of Music,&#8221; &#8220;A Midsummer&#8217;s Night&#8217;s Dream,&#8221; and &#8220;Latins from Manhattan.&#8221;",
+						"In 2009, Ramos was awarded the prestigious Jose Ferrer HOLA Tespis Award, given to actors in mid- career lauding their past work as well as anticipating the great work that is yet to come.",
+						"A competitive cyclist, Ramos has competed in events such as the Gran Fondo Colnago Philadelphia, Gran Fondo NY, and the Dave Jordan Memorial Classic. Originally from Puerto Rico and raised in the Bronx, Ramos spends his time between Los Angeles and New York and is an active member of both communities."
+					],
+					"image": "images/cast/ramos.jpg"
+			  },{
+					"name": "LUCY WALTERS",
+					"role": "(Holly)",
+					"desc": [
+						"Lucy Walters recently wrapped up the lead of the upcoming indie film, <i>Here Alone</i>. Walters first gained notoriety in Steve McQueen&#8217;s critically acclaimed film <i>Shame</i> starring Michael Fassbender. Her other film credits include <i>The Brass Teapot</i> (with Juno Temple; Toronto Film Festival 2012), <i>B-Side</i>, <i>Big Words</i>, <i>Bastards of Young</i>, and <i>Lies I Told My Little Sister</i>. Her television credits include guest spots on &#8220;Bones,&#8221; &#8220;The Good Wife,&#8221; &#8220;Do No Harm,&#8221; &#8220;Rizzoli & Isles,&#8221; &#8220;Smash,&#8221; &#8220;White Collar,&#8221; &#8220;Army Wives,&#8221; and &#8220;Blue Bloods.&#8221;"
+					],
+					"image": "images/cast/walters.jpg"
+			  },{
+					"name": "DONSHEA HOPKINS",
+					"role": "(Raina St. Patrick)",
+					"desc": [
+						"Donshea Hopkins is a true performer as an actress, singer, dancer and model. Born and raised in Brooklyn, NY, she began her career as a professional actress at the age of four. Prior to landing her role on the hit Starz Original Series &#8220;Power,&#8221; she appeared on numerous television shows, such as &#8220;Nurse Jackie,&#8221; &#8220;Law & Order: SUV,&#8221; &#8220;Sesame Street,&#8221; &#8220;Orange is the New Black,&#8221; &#8220;What Would You Do?,&#8221; &#8220;Team Umizoomi,&#8221; &#8220;Late Night with David Letterman,&#8221; and MTV&#8217;s &#8220;TRL.&#8221;",
+						"Hopkins is currently working on her debut album &#8220;3Point2,&#8221; which is set to release in late 2016."
+					],
+					"image": "images/cast/hopkins.jpg"
+			  },{
+					"name": "ALANI &#8216;LA LA&#8217; ANTHONY",
+					"role": "(LaKeisha Graham)",
+					"desc": [
+						"La La Anthony is an actress, producer, New York Times best-selling author and fashion-and-cosmetics Mogul whose presence in the film and TV industry is rapidly growing.",
+						"La La recently made her Broadway producing debut with &#8220;Eclipsed,&#8221; the celebrated drama starring Oscar-winner Lupita Nyong&#8217;o. &#8220;Eclipsed&#8221; is making history as the first all-female, all-black Broadway show.",
+						"She was last seen starring opposite Poppy Montgomery in the A&E series &#8220;Unforgettable&#8221; and on the silver screen, in the critically acclaimed Spike Lee film, <i>Chi-Raq</i>, alongside a talented ensemble cast that includes Nick Cannon, Wesley Snipes, Angela Bassett and Samuel L. Jackson. La La&#8217;s next film, directed by Ernest Dickerson (<i>Juice</i>, &#8220;The Wire&#8221;) is <i>Double Play</i>, adapted from Curacaoan author Frank Martinus Arion&#8217;s internationally acclaimed Dutch-language novel. She is also teaming up with Grammy-winning producer Timbaland and Leftfield Pictures to develop a hip-hop docuseries. The project will focus onJeff Janvier and Session Cruz&#8217;s Face Time Agency, the premiere casting agency for booking music video and hip-hop fashion models.",
+						"La La is also a best-selling author. In her first book &#8220;The Love Playbook&#8221; (2015), La La shares how she found love and success on her own terms. Within the first week, the book climbed to #1 on the Barnes & Noble Best Seller list and hit Number One on the New York Times Best Sellers List. She is currently adapting the title for the big-screen producing alongside Queen Latifah. LaLa followed her debut&#8217;s success with her second book, &#8220;The Power Playbook.&#8221;",
+						"La La&#8217;s film credits include <i>Think like a Man</i> and <i>Think Like a Man Too</i>, alongside Gabrielle Union and Taraji P. Henson and <i>Baggage Claim</i>, alongside Paula Patton and Derek Luke. On TV, La La has guest starred in the CBS crime drama, &#8220;NYC 22&#8221; and the popular Vh1 scripted show, &#8220;Single Ladies.&#8221; On- stage, she starred in the Off-Broadway production of &#8220;Love Loss and What I Wore&#8221;.",
+						"As an entrepreneur, La La has had success in the fashion and beauty industries. She released &#8220;5th & Mercer,&#8221; a capsule collection exclusively with Shopbop.com and is continuing to expand &#8220;Motives for La La,&#8221; a line of makeup uniquely formulated for every shade of today&#8217;s modern woman.",
+						"La La began her entertainment career in radio at the age of 16 at Atlanta&#8217;s Hot 97 station. After a short internship stint at that station, and while still in High School, she was given her own show, the wildly popular &#8220;Future Flavas,&#8221; alongside rapper/actor Ludacris. At 19, she got an offer from LA&#8217;s 92.3 The Beat to co-host her own radio show, &#8220;The B-Syde.&#8221; Much like Atlanta&#8217;s Hot 97, 92.3 was one of the top market stations in the country, and once again La La proved that she was a force to be reckoned with on the airways. After another successful run on the radio, MTV took notice and came calling. La La left 92.3 in 2001 and joined the MTV family. Although she had no previous on-air experience, she proved that she was ready to take on any challenge that came her way. La La quickly became the network&#8217;s top talent and went on to co-host two of their most popular shows, &#8220;Direct Effect&#8221; and &#8220;TRL.&#8221;",
+						"LaLa currently resides in LA and New York with her husband and son."
+					],
+					"image": "images/cast/anthony.jpg"
+			  },{
+					"name": "ENRIQUE MURCIANO",
+					"role": "(Felipe Lobos)",
+					"desc": [
+						"Miami born, Enrique Murciano spent the first few years of his life in Mexico. He attended Tulane University and Boston Law School, but moved to Los Angeles to pursue his goal of becoming an actor. He brought with him his love of exotic cars and motorcycles. On his first audition in 1997, he landed the role of &#8216;Alejandro&#8217; in 20th Century Fox&#8217;s <i>Speed 2: Cruise Control</i> alongside Sandra Bullock and Willem Dafoe.",
+						"His big break came three years later, a two-day stint on the set of the Academy Award-winning <i>Traffic</i>, as the role of &#8216;DEA Agent Ricky,&#8217; opposite Benicio Del Toro and Don Cheadle. After the short-lived TV series &#8220;Spyder Games&#8221; for MTV, Murciano landed a role in Ridley Scott&#8217;s <i>Black Hawk Down</i> where he met Jerry Bruckheimer and ended up landing the lead role in the incredibly successful series &#8220;Without a Trace&#8221; for CBS. Since then, Murciano has worked on shows such as &#8220;NCIS,&#8221; &#8220;CSI,&#8221; &#8220;Medium,&#8221; and &#8220;666 Park Avenue&#8221; and is currently starring alongside Kyle Chandler in the Netflix series &#8220;Bloodline,&#8221; with Season 2 set to air later this year. On the feature side, Murciano had one of the starring roles in <i>Miss Congeniality 2: Armed and Fabulous</i> with Sandra Bullock for Warner Bros., <i>The Lost City</i>, opposite Andy Garcia for Magnolia, Mancora with Elsa Pataky, and most recently Twentieth Century Fox&#8217;s latest installment in the <i>Planet of the Apes</i> franchise, <i>Dawn of the Planet of the Apes</i>, with Gary Oldman, Andy Serkis and Jason Clarke."
+					],
+					"image": "images/cast/murciano.jpg"
+			  }
+	  		]
+    }, {
+        "name": "Videos",
+		  "class": "videos",
+		  "link": "videos",
+        "menu": true,
+		  "maincontent": "Videos",
+		  "sidemenu": false,
+		  "video": false,
+		  "hidemenu": false,
+		  "loop": true,
+		  "background": "images/backgrounds/tommyghost.jpg",
+		  "content": [
+			  {
+					"name": "First Look",
+					"path": "https://www.starz.com/videos/embed/030aac582c4e46d39acfe8519268d36c?footer=false&cid=pws3pcs3firstlook",
+					"image": "images/video/firstlook.jpg"
+			  },{
+					"name": "Hero Trailer",
+					"path": "https://www.starz.com/videos/embed/b96ba5c5b6344e01ad2a7f6c4da825c0?footer=false&cid=pws3pcs3hero",
+					"image": "images/video/herotrailer.jpg"
+			  },{
+					"name": "Season 2 Recap",
+					"path": "https://www.starz.com/videos/embed/7d439862f85a45378f128bbd3481e5f0?footer=false&cid=pws3pcs2recap",
+					"image": "images/video/recap.jpg"
+			  }
+	  		]
+    }, {
+        "name": "Screening Room",
+		  "class": "screeningroom",
+		  "link": "https://microsites.starz.com/ScreeningRoom/Account/Login",
+        "menu": true,
+		  "external": true
+    }, {
+        "name": "Press Materials",
+		  "class": "pressmaterials",
+		  "link": "pressmaterials",
+		  "menu": true,
+		  "maincontent": "PressMaterials",
+		  "sidemenu": false,
+		  "video": false,
+		  "hidemenu": false,
+		  "loop": true,
+		  "background": "images/backgrounds/tashatommyholly.jpg",
+		  "content": {
+			  "mediaroom": [
+				  {
+					  "name": "Visit Starz Media Room to Download High Resolution Images and Videos",
+					  "link": "http://starz.mediaroom.com/index.php?s=64&cat=87"
+				  }
+			  ],
+			  "downloads": [
+				  {
+					  "name": "Series Synopsis",
+					  "link": "pdfs/pws3_seriessynopsis.pdf"
+				  },{
+					  "name": "Episode Descriptions",
+					  "link": "pdfs/pws3_episodedescriptions.pdf"
+				  },{
+					  "name": "Character Descriptions",
+					  "link": "pdfs/pws3_characterdescriptions.pdf"
+				  },{
+					  "name": "Cast Credits",
+					  "link": "pdfs/pws3_castcredits.pdf"
+				  },{
+					  "name": "Cast Biographies",
+					  "link": "pdfs/pws3_castbiographies.pdf"
+				  },{
+					  "name": "Production Notes",
+					  "link": "pdfs/pws3_productionnotes.pdf"
+				  },{
+					  "name": "Production Credits",
+					  "link": "pdfs/pws3_productioncredits.pdf"
+				  },{
+					  "name": "Production Biographies",
+					  "link": "pdfs/pws3_productionbiographies.pdf"
+				  }
+			  ],
+			  "contacts": [
+				  {
+					  "name": "Nyle Washington",
+					  "company": "Starz Entertainment, LLC.",
+					  "phone": "(212) 905-4287",
+					  "email": "nyle.washington@starz.com",
+					  "subject": "Power Season 3 Press Kit"
+				  },{
+					  "name": "Collen Curtis",
+					  "company": "Starz Entertainment, LLC.",
+					  "phone": "(212) 905-4230",
+					  "email": "colleen.curtis@starz.com",
+					  "subject": "Power Season 3 Press Kit"
+				  }
+			  ]
+		  }
+    }]
+}

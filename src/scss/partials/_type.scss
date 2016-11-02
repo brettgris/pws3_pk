@@ -1,0 +1,110 @@
+$font-family: "Museo", Helvetica, Arial, sans-serif;
+
+/************************ BODY ********************/
+
+body{
+	color: $copy-color;
+	font-family: $font-family;
+}
+
+/**************** HEADERS ********************/
+h1{
+	color: $headline-color;
+}
+
+h2{
+	color: $headline-color;
+	letter-spacing: 5px;
+}
+
+h3{
+	color: $headline-color;
+}
+
+h4{
+	color: $headline-color;
+	letter-spacing: 4px;
+}
+
+h5{
+	color: $headline-color;
+}
+
+h6{
+	color: $headline-color;
+}
+
+/**************** BODY COPY ********************/
+p{
+	font-size: 16px;
+	line-height: 24px;
+	color: #aaa;
+
+	@media #{$x-small}{
+		font-size: 14px;
+		line-height: 16px;
+
+	}
+}
+
+a{
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+li{
+
+}
+
+.btn{
+
+}
+
+/**************** HEADER ********************/
+/*a.menuitem{
+	text-transform: uppercase;
+	color: $menu-item-color;
+	font-size: 12px;
+	font-style: italic;
+
+	&:hover{
+		color: $menu-item-hover;
+	}
+
+	&.highlight{
+		color: $menu-item-hightlight;
+	}
+}*/
+
+/**************** FOOTER ********************/
+p.copyright{
+	font-size: 10px;
+	color: $copyright-color;
+	line-height: 10px;
+}
+
+
+/**************** GLOBAL CLASSES ********************/
+.center{
+	text-align: center;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.justify{
+	text-align: justify;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.italic{
+	font-style: italic;
+}

@@ -1,0 +1,35 @@
+.synopsis{
+	.main-column {
+		@include display-flex;
+		@include align-items( flex-end );
+		padding: 0px 30px;
+
+		.main{
+			padding-bottom: $synopsis-margin-bottom;
+
+			.tagline{
+				text-align: center;
+				margin-bottom: $synopsis-tag-margin-bottom;
+
+				img {
+					margin: auto;
+				}
+			}
+
+			.copy{
+				text-align: justify;
+			}
+
+			.gradient{
+				@include background-image(linear-gradient(to top, rgba(0,0,0,1) 30%, rgba(0,0,0,0) 100%));
+				width: 100%;
+				height: $gradient-bottom-height;
+				position: absolute;
+				bottom:0;
+				left:0;
+				z-index: -100;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,84 @@
+.videos{
+	.main-column {
+		@include display-flex;
+		@include align-items(center);
+
+		.main{
+			max-width: 900px;
+
+			.list{
+				.thumb{
+					margin-bottom: $video-thumb-spacing;
+
+					.content{
+						min-height: $video-thumb-min-height;
+						background-color: $video-thumb-background;
+						background-repeat: no-repeat;
+						background-position: $video-thumb-padding;
+						display: flex;
+						align-items: center;
+						cursor: pointer;
+
+						.copy{
+							margin: 0 0 0 $video-thumb-copy-left;
+							padding: $video-thumb-padding;
+
+							.name{
+								color: $video-thumb-name-color;
+								font-size: 21px;
+								line-height: 21px;
+								margin-bottom: 5px;
+							}
+
+							.cta{
+								color: $video-thumb-cta-color;
+							}
+						}
+
+						&:hover{
+							background-color: $video-thumb-background-hover;
+
+							.copy{
+								.cta{
+									color: $video-thumb-cta-color-hover;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.player{
+
+				.closebtn{
+					color: $video-close-btn-color;
+					font-size: 16px;
+
+					&:hover{
+						color: $video-close-btn-color-hover;
+					}
+				}
+				.videoplayer{
+					margin-top: $video-player-margin-top;
+					padding-top: $video-percent;
+					position: relative;
+					background: $black;
+					overflow: hidden;
+
+					iframe{
+						position: absolute;
+						top: 0;
+						left: 0;
+					}
+				}
+
+				.title{
+					color: white;
+					font-size: 24px;
+					margin-top: $video-player-margin-top;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

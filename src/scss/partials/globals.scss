@@ -1,0 +1,132 @@
+body{
+	background: $body-background;
+	width: 100%;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+html{
+	height: 100%;
+}
+
+#app{
+	height: 100%;
+
+	.wrapper{
+		height: 100%;
+
+		.background{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top:0;
+			left:0;
+			background-size:cover;
+			background-position: center center;
+		}
+
+		.leftside{
+			height: 100%;
+			width: $side-menu-width;
+			@include display-flex;
+			@include flex-direction( column );
+
+			@include background-image(linear-gradient(to right, rgba(0,0,0,.75) 0%, rgba(0,0,0,0) 100%));
+			z-index: 500;
+			position: fixed;
+
+			@media #{$small}{
+				background: none;
+				width: 100%;
+				z-index: 10;
+				display: block;
+				pointer-events:none;
+			}
+		}
+
+		.page{
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			position: absolute;
+			top: 0;
+			left: 0;
+			@include display-flex;
+			overflow-x:hidden;
+
+			@media #{$small}{
+				z-index: 5;
+			}
+
+			.left-column{
+				width: $side-menu-width;
+
+				div{
+					width: $side-menu-width;
+				}
+
+				@media #{$small}{
+					display: none;
+				}
+			}
+
+			.main-column{
+				@include flex-grow(1);
+			}
+
+			.right-column{
+				width: $side-menu-width !important;
+
+				@media #{$medium}{
+					display: none;
+				}
+
+			}
+		}
+	}
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+.bottom-gradient{
+	position: absolute;
+	width: 100%;
+	height: 150px;
+	bottom:0;
+	@include background-image(linear-gradient(to top, rgba(0,0,0,.6) 30%, rgba(0,0,0,0) 100%));
+	z-index: 0;
+}
+
+.title{
+	@include display-flex;
+	width: 100%;
+	align-items: center;
+
+	.name{
+		@include flex-grow(1);
+	}
+
+	a{
+		background: $arrow-color center center no-repeat;
+		display:block;
+		width: $arrow-width;
+		height: $arrow-height;
+
+		&.next{
+			background-image: $next-arrow;
+		}
+
+		&.previous{
+			background-image: $previous-arrow;
+		}
+	}
+}

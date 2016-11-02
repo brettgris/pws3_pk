@@ -1,0 +1,32 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css';
+@import "compass/css3";
+
+/************************  VARIABLES  ************************/
+@import '../partials/_colors.scss';
+@import '../partials/_sizes.scss';
+@import '../partials/_mediaqueries.scss';
+@import '../partials/_fonts.scss';
+@import '../partials/_type.scss';
+@import '../partials/_borders.scss';
+@import '../partials/_zindex.scss';
+
+/************************  GLOBALS  ************************/
+@import '../partials/globals.scss';
+
+/************************  PARTIALS  ************************/
+@import '../partials/header.scss';
+@import '../partials/menu.scss';
+@import '../partials/mobilemenu.scss';
+@import '../partials/sidemenu.scss';
+@import '../partials/footer.scss';
+@import '../partials/videoplayer.scss';
+
+/************************  SECTIONS  ************************/
+@import '../sections/introvideo.scss';
+@import '../sections/synopsis.scss';
+@import '../sections/story.scss';
+@import '../sections/characters.scss';
+@import '../sections/production.scss';
+@import '../sections/cast.scss';
+@import '../sections/videos.scss';
+@import '../sections/pressmaterials.scss';

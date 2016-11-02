@@ -1,0 +1,85 @@
+$imgPath: "../images/";
+
+$white: #FFFFFF;
+$black: #000000;
+$med-grey: #666666;
+$light-grey: #cccccc;
+
+$showcolor1: #a3662f;
+$showcolor2: #81532a;
+
+$grey: #b7b9b9;
+$pink: #eac9c6;
+
+/**********************************  BODY  *********************************/
+$body-background: $black no-repeat center center/cover;
+
+/******************************  TYPE COLORS  ******************************/
+$copy-color: $med-grey;
+$headline-color: $white;
+$link-color: $black;
+
+$copyright-color: $med-grey;
+
+/********************************  BORDERS  ********************************/
+$border-color: rgba(255,255,255,.4);
+
+/********************************  GLOBALS  ************************/
+$arrow-color: $showcolor1;
+$next-arrow: url(#{$imgPath}globals/nextbtn.png);
+$previous-arrow: url(#{$imgPath}globals/prevbtn.png);
+
+/********************************  HEADER  *********************************/
+$header-ta-background: url(#{$imgPath}header/ta.png) left center/contain no-repeat;
+$header-titleart-background: url(#{$imgPath}header/tunein.png) left center/contain no-repeat;
+
+/*********************************  MENU  **********************************/
+$menu-selected-background: $showcolor1;
+$menu-link-color: $light-grey;
+$menu-link-selected: $white;
+$menu-link-highlight: $showcolor1;
+
+$mobile-btn-color: $light-grey;
+$mobile-btn-color-hover: $white;
+
+/***************************** MOBILE MENU *********************************/
+$mobilemenu-background: rgba(0,0,0,.9);
+$mobilemenu-color: $light-grey;
+$mobilemenu-color-hover: $white;
+$mobilemenu-hightlight-color: $showcolor1;
+
+/*********************************  INTRO  *********************************/
+$intro-btn-background: $showcolor1;
+$intro-btn-color: $white;
+
+/******************************  CHARACTERS  *******************************/
+
+/******************************  PRODUCTION  *******************************/
+
+/*********************************  CAST  **********************************/
+
+/********************************  VIDEOS  *********************************/
+$video-thumb-background: $showcolor1;
+$video-thumb-background-hover: $showcolor2;
+
+$video-thumb-image-background: $black;
+
+$video-thumb-name-color: $white;
+$video-thumb-cta-color: $light-grey;
+$video-thumb-cta-color-hover: $white;
+
+$video-close-btn-color: $light-grey;
+$video-close-btn-color-hover: $white;
+
+/********************************  PRESS  **********************************/
+$press-thumb-background: $showcolor1;
+$press-thumb-background-hover: $showcolor2;
+
+$press-copy-color: $black;
+$press-copy-color-hover: $white;
+$press-thumb-title: $white;
+$press-third-color: $light-grey;
+
+/*******************************  FOOTER  **********************************/
+$footer-background: $black;
+$footer-logo-background: url(#{$imgPath}footer/starz.png) center center/contain no-repeat;
